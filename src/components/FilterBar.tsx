@@ -27,7 +27,9 @@ export function FilterBar({ compact = false }: { compact?: boolean }) {
     useDashboard()
   const [expanded, setExpanded] = useState(false)
 
-  const showDetails = expanded || !compact
+  // Details are always visible unless the host screen asked for a compact bar,
+  // in which case the toggle below reveals them.
+  const showDetails = !compact || expanded
 
   return (
     <div className="card mb-4 overflow-hidden">
@@ -90,11 +92,13 @@ export function FilterBar({ compact = false }: { compact?: boolean }) {
           </button>
         </div>
 
-        <button onClick={() => setExpanded((v) => !v)} className="chip lg:hidden">
-          <IconFlame className="h-3 w-3" />
-          Segments
-          {activeFilterCount > 0 && <span className="rounded-full bg-wahj-gold/25 px-1 text-[9px] tnum">{activeFilterCount}</span>}
-        </button>
+        {compact && (
+          <button onClick={() => setExpanded((v) => !v)} className="chip">
+            <IconFlame className="h-3 w-3" />
+            Segments
+            {activeFilterCount > 0 && <span className="rounded-full bg-wahj-gold/25 px-1 text-[9px] tnum">{activeFilterCount}</span>}
+          </button>
+        )}
 
         {activeFilterCount > 0 && (
           <button onClick={resetFilters} className="chip ml-auto border-transparent text-wahj-smoke hover:text-wahj-ink dark:hover:text-wahj-sand">

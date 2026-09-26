@@ -13,7 +13,7 @@ import { IconBox, IconCoins, IconDroplet, IconFlame, IconDownload } from '../com
 import { useNavigate } from '../components/Shell'
 import { useMedia } from '../state/media'
 import { Thumb } from '../components/Thumb'
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 
 const STATUS_TONE: Record<string, 'ok' | 'warn' | 'bad' | 'info' | 'neutral'> = {
   delivered: 'ok',
@@ -30,6 +30,8 @@ export function Overview() {
   const media = useMedia()
   const [donutMetric, setDonutMetric] = useState<'revenue' | 'orders'>('revenue')
   const photosMissing = dataset.perfumes.filter((p) => !media.images[p.id]).length
+  // orders arrive sorted oldest → newest; the feed wants the other way round
+  const latestOrders = useMemo(() => [...orders].sort((a, b) => b.createdAt.localeCompare(a.createdAt)).slice(0, 12), [orders])
 
   const revDelta = trend(kpis.revenue, prevKpis.revenue)
   const profitDelta = trend(kpis.profit, prevKpis.profit)
@@ -326,7 +328,7 @@ export function Overview() {
         </ChartCard>
         <ChartCard title="Live order feed" subtitle="Newest first — sort, search and export below">
           <ul className="max-h-[190px] space-y-2 overflow-y-auto pr-1">
-            {orders.slice(0, 12).map((o: Order, i: number) => (
+            {latestOrders.map((o: Order, i: number) => (
               <li
                 key={o.id}
                 className="flex items-center justify-between gap-3 rounded-lg border border-black/[0.05] px-2.5 py-2 text-xs animate-fade-up dark:border-white/[0.05]"
