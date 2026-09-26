@@ -1,12 +1,13 @@
 import { useCallback, useEffect, useState } from 'react'
+import { storageGet, storageSet } from './storage'
 
 export type Mode = 'dark' | 'light'
 
 const STORAGE_KEY = 'wahj-theme'
 
 function initialMode(): Mode {
-  if (typeof window === 'undefined') return 'dark'
-  const stored = window.localStorage.getItem(STORAGE_KEY)
+  // Never throws: storage may be blocked inside a sandboxed preview iframe.
+  const stored = storageGet(STORAGE_KEY)
   if (stored === 'light' || stored === 'dark') return stored
   return 'dark' // Fire in Darkness is the default
 }
@@ -19,7 +20,7 @@ export function useTheme() {
     root.classList.toggle('dark', mode === 'dark')
     root.classList.toggle('light', mode === 'light')
     root.style.colorScheme = mode
-    window.localStorage.setItem(STORAGE_KEY, mode)
+    storageSet(STORAGE_KEY, mode)
   }, [mode])
 
   const toggle = useCallback(() => setMode((m) => (m === 'dark' ? 'light' : 'dark')), [])

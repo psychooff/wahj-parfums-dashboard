@@ -3,6 +3,9 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  // Relative asset paths: the dashboard then works at any URL, including a
+  // proxied preview that serves it from a sub-path.
+  base: './',
   server: {
     host: '0.0.0.0',
     port: 5173,

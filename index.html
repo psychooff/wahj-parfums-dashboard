@@ -16,9 +16,152 @@
       rel="icon"
       href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230A0A0A'/%3E%3Cpath d='M16 6c3 5 6 7.5 6 11.5A6 6 0 0 1 10 17.5C10 13.5 13 11 16 6z' fill='%23C9A84C'/%3E%3C/svg%3E"
     />
+    <style>
+      /* Boot screen: styled inline so it is on-brand before the CSS bundle lands,
+         and so the preview is never a blank page. React replaces #root on mount. */
+      html,
+      body {
+        margin: 0;
+        background: #0a0a0a;
+        color: #d9c9a3;
+        font-family: Inter, system-ui, -apple-system, 'Segoe UI', sans-serif;
+      }
+      #boot {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 18px;
+        text-align: center;
+        padding: 24px;
+        background: radial-gradient(900px 500px at 50% -10%, rgba(184, 86, 14, 0.18), transparent 65%), #0a0a0a;
+      }
+      #boot .flame {
+        width: 54px;
+        height: 54px;
+        border-radius: 16px;
+        border: 1px solid rgba(201, 168, 76, 0.35);
+        display: grid;
+        place-items: center;
+        box-shadow: 0 0 60px -18px rgba(184, 86, 14, 0.75);
+      }
+      #boot .ar {
+        font-family: Cairo, Inter, sans-serif;
+        font-size: 15px;
+        color: rgba(201, 168, 76, 0.9);
+        letter-spacing: 0.06em;
+      }
+      #boot .word {
+        font-family: 'Playfair Display', Georgia, serif;
+        letter-spacing: 0.28em;
+        font-size: 13px;
+        color: #d9c9a3;
+      }
+      #boot .bar {
+        width: 190px;
+        height: 3px;
+        border-radius: 999px;
+        overflow: hidden;
+        background: rgba(255, 255, 255, 0.08);
+      }
+      #boot .bar i {
+        display: block;
+        height: 100%;
+        width: 40%;
+        border-radius: 999px;
+        background: linear-gradient(90deg, #b8560e, #e4c56b);
+        animation: slide 1.15s ease-in-out infinite;
+      }
+      @keyframes slide {
+        0% {
+          transform: translateX(-110%);
+        }
+        100% {
+          transform: translateX(260%);
+        }
+      }
+      #boot .note {
+        font-size: 11.5px;
+        color: rgba(217, 201, 163, 0.6);
+        max-width: 460px;
+        line-height: 1.6;
+      }
+      #boot .err {
+        display: none;
+        margin-top: 6px;
+        max-width: 620px;
+        text-align: left;
+        font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+        font-size: 11px;
+        line-height: 1.6;
+        color: #f0a3a3;
+        background: rgba(248, 113, 113, 0.08);
+        border: 1px solid rgba(248, 113, 113, 0.3);
+        border-radius: 12px;
+        padding: 10px 12px;
+        white-space: pre-wrap;
+        max-height: 220px;
+        overflow: auto;
+      }
+    </style>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <div id="boot">
+        <div class="flame">
+          <svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true">
+            <defs>
+              <linearGradient id="bootFlame" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#E4C56B" />
+                <stop offset="55%" stop-color="#C9A84C" />
+                <stop offset="100%" stop-color="#B8560E" />
+              </linearGradient>
+            </defs>
+            <path d="M16 4c3.4 5.6 6.6 8.4 6.6 12.8A6.6 6.6 0 0 1 9.4 16.8C9.4 12.4 12.6 9.6 16 4Z" fill="url(#bootFlame)" />
+          </svg>
+        </div>
+        <div>
+          <div class="ar">وهج</div>
+          <div class="word">WAHJ PARFUMS</div>
+        </div>
+        <div class="bar"><i></i></div>
+        <div class="note" id="boot-note">Loading the dashboard…</div>
+        <pre class="err" id="boot-err"></pre>
+      </div>
+    </div>
+
+    <script>
+      // Surfaces any boot failure instead of leaving a blank screen for the user.
+      ;(function () {
+        var errors = []
+        function show(message) {
+          errors.push(message)
+          var box = document.getElementById('boot-err')
+          var note = document.getElementById('boot-note')
+          if (!box) return
+          if (note) note.textContent = 'The dashboard hit an error while starting. Details below — they are safe to share.'
+          box.style.display = 'block'
+          box.textContent = errors.slice(0, 6).join('\n\n')
+        }
+        window.addEventListener('error', function (e) {
+          show((e && e.message) || String((e && e.error) || 'Unknown error'))
+        })
+        window.addEventListener('unhandledrejection', function (e) {
+          show('Unhandled promise: ' + String((e && e.reason) || 'unknown'))
+        })
+        // If React has not mounted within 8s, say so plainly.
+        setTimeout(function () {
+          if (!document.getElementById('boot')) return
+          var note = document.getElementById('boot-note')
+          if (note && !errors.length) {
+            note.textContent =
+              'Still loading. If this message stays for more than a few seconds, the script bundle blocked — open the browser console for details.'
+          }
+        }, 8000)
+      })()
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

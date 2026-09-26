@@ -229,6 +229,43 @@ async function main() {
     await new Promise((r) => setTimeout(r, 30))
   })
 
+  // ── hostile environment: storage blocked, as in a sandboxed iframe ──
+  console.log('\nSandboxed preview (storage blocked)')
+  Object.defineProperty(dom.window, 'localStorage', {
+    configurable: true,
+    get() {
+      throw new Error('SecurityError: The document is sandboxed and lacks the allow-same-origin flag')
+    },
+  })
+  Object.defineProperty(dom.window, 'indexedDB', {
+    configurable: true,
+    get() {
+      throw new Error('SecurityError: indexedDB is not available in this context')
+    },
+  })
+
+  const errorsBeforeSandbox = errors.length
+  container.innerHTML = '<div id="boot">boot</div>'
+  const root2 = createRoot(container)
+  await render(createElement(App), root2)
+  const sandboxed = text()
+  check('the dashboard still mounts when localStorage throws', sandboxed.length > 500, `${sandboxed.length} chars`)
+  check('KPIs render without storage', sandboxed.includes('Revenue') && sandboxed.includes('Orders'))
+  check('it reads the built-in sample dataset', sandboxed.includes('WAHJ-'))
+  const sandboxErrors = errors.slice(errorsBeforeSandbox).filter((e) => !e.includes('width(0)') && !e.includes('Warning:'))
+  check('no crash from blocked storage', sandboxErrors.length === 0, sandboxErrors.slice(0, 3).join(' | '))
+
+  // and photos / theme still work in that environment
+  const photosOk = await clickButton((t) => t.startsWith('Data & Photos'))
+  await act(async () => {
+    await new Promise((r) => setTimeout(r, 30))
+  })
+  check('the photos screen works without indexedDB', photosOk && text().includes('Product photos'))
+
+  await act(async () => {
+    root2.unmount()
+  })
+
   // ── report ──
   const realErrors = errors.filter(
     (e) =>

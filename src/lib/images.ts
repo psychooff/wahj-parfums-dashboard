@@ -37,47 +37,72 @@ export function skuKeys(perfume: Perfume): string[] {
 
 function openDb(): Promise<IDBDatabase | null> {
   return new Promise((resolve) => {
-    if (typeof indexedDB === 'undefined') return resolve(null)
-    const request = indexedDB.open(DB_NAME, VERSION)
+    // Wrapped end-to-end: sandboxed iframes throw on any indexedDB touch.
+    try {
+      if (typeof indexedDB === 'undefined' || !indexedDB) return resolve(null)
+    } catch {
+      return resolve(null)
+    }
+    let request: IDBOpenDBRequest
+    try {
+      request = indexedDB.open(DB_NAME, VERSION)
+    } catch {
+      return resolve(null)
+    }
     request.onupgradeneeded = () => {
-      const db = request.result
-      if (!db.objectStoreNames.contains(STORE)) db.createObjectStore(STORE)
+      try {
+        const db = request.result
+        if (!db.objectStoreNames.contains(STORE)) db.createObjectStore(STORE)
+      } catch {
+        /* ignore */
+      }
     }
     request.onsuccess = () => resolve(request.result)
     request.onerror = () => resolve(null)
+    request.onblocked = () => resolve(null)
   })
 }
 
 async function idbAll(): Promise<ImageMap> {
-  const db = await openDb()
-  if (!db) return {}
-  return new Promise((resolve) => {
-    const tx = db.transaction(STORE, 'readonly')
-    const store = tx.objectStore(STORE)
-    const out: ImageMap = {}
-    const cursorRequest = store.openCursor()
-    cursorRequest.onsuccess = () => {
-      const cursor = cursorRequest.result
-      if (cursor) {
-        out[String(cursor.key)] = String(cursor.value)
-        cursor.continue()
-      } else resolve(out)
-    }
-    cursorRequest.onerror = () => resolve({})
-  })
+  try {
+    const db = await openDb()
+    if (!db) return {}
+    return await new Promise((resolve) => {
+      const tx = db.transaction(STORE, 'readonly')
+      const store = tx.objectStore(STORE)
+      const out: ImageMap = {}
+      const cursorRequest = store.openCursor()
+      cursorRequest.onsuccess = () => {
+        const cursor = cursorRequest.result
+        if (cursor) {
+          out[String(cursor.key)] = String(cursor.value)
+          cursor.continue()
+        } else resolve(out)
+      }
+      cursorRequest.onerror = () => resolve({})
+      tx.onerror = () => resolve({})
+    })
+  } catch {
+    return {}
+  }
 }
 
-async function idbPut(key: string, value: string | null) {
-  const db = await openDb()
-  if (!db) return
-  return new Promise<void>((resolve) => {
-    const tx = db.transaction(STORE, 'readwrite')
-    const store = tx.objectStore(STORE)
-    if (value === null) store.delete(key)
-    else store.put(value, key)
-    tx.oncomplete = () => resolve()
-    tx.onerror = () => resolve()
-  })
+async function idbPut(key: string, value: string | null): Promise<void> {
+  try {
+    const db = await openDb()
+    if (!db) return
+    await new Promise<void>((resolve) => {
+      const tx = db.transaction(STORE, 'readwrite')
+      const store = tx.objectStore(STORE)
+      if (value === null) store.delete(key)
+      else store.put(value, key)
+      tx.oncomplete = () => resolve()
+      tx.onerror = () => resolve()
+      tx.onabort = () => resolve()
+    })
+  } catch {
+    /* photos simply stay session-only */
+  }
 }
 
 async function loadManifest(): Promise<ImageMap> {
@@ -114,7 +139,14 @@ export function useProductImages(perfumes: Perfume[]): MediaState {
   useEffect(() => {
     let cancelled = false
     ;(async () => {
-      const [repo, uploads] = await Promise.all([loadManifest(), idbAll()])
+      let repo: ImageMap = {}
+      let uploads: ImageMap = {}
+      try {
+        ;[repo, uploads] = await Promise.all([loadManifest(), idbAll()])
+      } catch {
+        repo = {}
+        uploads = {}
+      }
       if (cancelled) return
       const merged: ImageMap = {}
       const src: Record<string, 'upload' | 'repo'> = {}
@@ -138,7 +170,9 @@ export function useProductImages(perfumes: Perfume[]): MediaState {
       setImages(merged)
       setSource(src)
       setReady(true)
-    })()
+    })().catch(() => {
+      if (!cancelled) setReady(true)
+    })
     return () => {
       cancelled = true
     }
