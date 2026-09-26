@@ -1,7 +1,12 @@
 # Put your CSV files here
 
-Anything in this folder is loaded by the dashboard automatically when it opens —
-no button to press, no build step. Commit the files and the whole team sees them.
+Three files are already sitting in this folder — `catalogue.csv`, `production.csv`
+and `orders.csv` — with the correct header row and nothing under it. That is the
+whole job: **open a file, paste your rows under the header, commit.**
+
+They load automatically the next time the dashboard opens. No button to press, no
+build step, no code. And an empty file is harmless: the dashboard keeps showing its
+built-in sample data until you actually add rows.
 
 | File name | What it holds | Required? |
 |---|---|---|
@@ -10,6 +15,9 @@ no button to press, no build step. Commit the files and the whole team sees them
 | `orders.csv` (or `ventes.csv`) | Your sales — local and online | yes, for real numbers |
 
 Load order matters: catalogue → production → orders.
+
+**Want to see the shape first?** `../data-examples/` has filled versions of all
+three files, generated from real-looking data.
 
 ## Column names
 

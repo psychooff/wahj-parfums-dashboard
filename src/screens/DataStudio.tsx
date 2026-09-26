@@ -75,7 +75,7 @@ function DropZone({
 }
 
 export function DataStudio() {
-  const { dataset, settings, applyImport, resetToSampleData, dataSource, importLog, lastAction } = useDashboard()
+  const { dataset, settings, applyImport, resetToSampleData, dataSource, importLog, lastAction, repoData } = useDashboard()
   const customerName = (id: string) => dataset.customers.find((c) => c.id === id)?.name ?? id
   const customerPhone = (id: string) => dataset.customers.find((c) => c.id === id)?.phone ?? ''
   const media = useMedia()
@@ -166,6 +166,32 @@ export function DataStudio() {
             <IconCheck className="h-3.5 w-3.5" />
             {lastAction}
           </p>
+        )}
+
+        {(repoData.loaded.length > 0 || repoData.empty.length > 0) && (
+          <div className="mt-3 rounded-xl border border-wahj-gold/25 bg-wahj-gold/[0.05] p-3">
+            <p className="text-[12px] font-semibold">Files found in public/data/</p>
+            <ul className="mt-1.5 space-y-1 text-[11.5px]">
+              {repoData.loaded.map((f) => (
+                <li key={f} className="flex items-center gap-2 text-pos">
+                  <IconCheck className="h-3.5 w-3.5 shrink-0" />
+                  {f} — loaded and driving the dashboard
+                </li>
+              ))}
+              {repoData.empty.map((f) => (
+                <li key={f} className="flex items-center gap-2 text-warn">
+                  <IconAlert className="h-3.5 w-3.5 shrink-0" />
+                  {f} — waiting for your numbers (the file only has a header row right now)
+                </li>
+              ))}
+            </ul>
+            {repoData.empty.length > 0 && (
+              <p className="mt-2 text-[11px] leading-relaxed text-wahj-smoke">
+                Open that file in the repo, paste your export under the header row (or drop the file in the box above), and the dashboard switches
+                to your data on the next load. Until then it keeps showing the built-in sample data.
+              </p>
+            )}
+          </div>
         )}
       </div>
 
@@ -354,8 +380,13 @@ export function DataStudio() {
           <ChartCard title="3 · Where files live in the repo" subtitle="For permanent data instead of browser-only uploads">
             <ul className="space-y-2 text-[11.5px] leading-relaxed text-wahj-smoke">
               <li className="rounded-xl border border-black/[0.06] p-2.5 dark:border-white/[0.07]">
-                <code className="text-wahj-ink dark:text-wahj-sand">public/data/orders.csv</code>
-                <span className="block text-[10.5px]">Orders — drop your export here, then run <code>npm run data:import</code> (or import it above).</span>
+                <span className="flex items-center justify-between gap-2">
+                  <code className="text-wahj-ink dark:text-wahj-sand">public/data/orders.csv</code>
+                  <StatusPill tone={repoData.loaded.some((f) => f.startsWith('orders')) ? 'ok' : 'neutral'}>
+                    {repoData.loaded.some((f) => f.startsWith('orders')) ? 'in use' : 'placeholder'}
+                  </StatusPill>
+                </span>
+                <span className="block text-[10.5px]">Orders — paste your export under the header, or run <code>npm run data:import</code> after adding it locally.</span>
               </li>
               <li className="rounded-xl border border-black/[0.06] p-2.5 dark:border-white/[0.07]">
                 <code className="text-wahj-ink dark:text-wahj-sand">public/data/production.csv</code>

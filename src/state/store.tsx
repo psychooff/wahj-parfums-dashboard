@@ -1,6 +1,6 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { buildDataset, getStockRows } from '../data/generate'
-import { importCsv, type ImportContext, type ImportKind, type ImportPreview } from '../lib/importer'
+import { importCsv, parseCsv, type ImportContext, type ImportKind, type ImportPreview } from '../lib/importer'
 import { RULES } from '../data/catalog'
 import type {
   ABCClass,
@@ -111,6 +111,8 @@ export interface DashboardValue {
   batches: ProductionBatch[]
   /** 'sample' until the founder imports their own files. */
   dataSource: 'sample' | 'imported'
+  /** What was found in public/data/ on boot: files that loaded, and files still empty. */
+  repoData: { loaded: string[]; empty: string[] }
   importLog: ImportLogEntry[]
   applyImport: (preview: ImportPreview) => void
   resetToSampleData: () => void
@@ -146,6 +148,7 @@ export function DashboardProvider({ children }: { children: ReactNode }) {
   const [lastAction, setLastAction] = useState<string | null>(null)
   const [importLog, setImportLog] = useState<ImportLogEntry[]>([])
   const [dataSource, setDataSource] = useState<'sample' | 'imported'>('sample')
+  const [repoData, setRepoData] = useState<{ loaded: string[]; empty: string[] }>({ loaded: [], empty: [] })
   const [refreshing, setRefreshing] = useState(false)
   const [lastUpdated, setLastUpdated] = useState(new Date())
   const firstRender = useRef(true)
@@ -398,10 +401,17 @@ export function DashboardProvider({ children }: { children: ReactNode }) {
         macerationDays: settings.macerationDays,
       }
       const applied: string[] = []
+      const empty: string[] = []
       for (const step of order) {
         for (const name of step.names) {
           const text = await readCsv(name)
           if (!text) continue
+          // A file with only a header row is a placeholder waiting for real
+          // numbers — note it, but never let it wipe the sample dataset.
+          if (!parseCsv(text).rows.length) {
+            empty.push(name)
+            break
+          }
           const preview = importCsv(text, ctxNow)
           if (cancelled || preview.kind === 'unknown' || !preview.rowCount) continue
           applyImport(preview)
@@ -409,7 +419,9 @@ export function DashboardProvider({ children }: { children: ReactNode }) {
           break
         }
       }
-      if (applied.length && !cancelled) {
+      if (cancelled) return
+      setRepoData({ loaded: applied, empty })
+      if (applied.length) {
         setLastAction(`Loaded from public/data/ — ${applied.join(' · ')}. Replace a file and reload to refresh.`)
       }
     })()
@@ -469,6 +481,7 @@ export function DashboardProvider({ children }: { children: ReactNode }) {
     openAlerts,
     batches,
     dataSource,
+    repoData,
     importLog,
     applyImport,
     resetToSampleData,

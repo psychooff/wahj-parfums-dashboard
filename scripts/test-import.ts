@@ -10,7 +10,17 @@
  */
 import { buildDataset, getStockRows } from '../src/data/generate'
 import { PACKS, RULES } from '../src/data/catalog'
-import { importCsv, ordersToCsv, batchesToCsv, templateCsv, parseCsv, toDayKey, toNumber, parseItemsText } from '../src/lib/importer'
+import {
+  importCsv,
+  ordersToCsv,
+  batchesToCsv,
+  templateCsv,
+  parseCsv,
+  toDayKey,
+  toNumber,
+  parseItemsText,
+  TEMPLATES,
+} from '../src/lib/importer'
 import { buildPnL, computeKpis, filterOrders, presetRange } from '../src/lib/metrics'
 import { addDays, dayKey } from '../src/lib/dates'
 
@@ -184,6 +194,15 @@ check('unit cost is recalculated from the recipe', Math.abs(p.perfumes[0].unitCo
 check('a more expensive oil raises the unit cost', p.perfumes[0].unitCost30ml > p.perfumes[1].unitCost30ml)
 check('gender and class are mapped', p.perfumes[0].gender === 'unisex' && p.perfumes[0].abcClass === 'A')
 check('prices are imported', p.perfumes[0].localSinglePrice === 59)
+
+// A header-only file (the placeholders committed in public/data/) must be inert:
+// it must not be mistaken for real data and empty the dashboard.
+const headerOnly = ['orders', 'production', 'products'] as const
+for (const kind of headerOnly) {
+  const header = TEMPLATES[kind].columns.join(',')
+  const result = importCsv(header, ctx)
+  check(`a header-only ${kind} file is inert (placeholder, not data)`, result.rowCount === 0 && result.orders.length === 0 && result.batches.length === 0 && result.perfumes.length === 0)
+}
 
 const unknown = importCsv('foo,bar\n1,2', ctx)
 check('an unreadable file is rejected with guidance', unknown.kind === 'unknown' && unknown.warnings.length > 0)

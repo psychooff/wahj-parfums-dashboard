@@ -229,6 +229,40 @@ async function main() {
     await new Promise((r) => setTimeout(r, 30))
   })
 
+  // ── placeholder files in public/data/ must NOT wipe the sample dataset ──
+  console.log('\nRepo data files (public/data/)')
+  const placeholder = 'order_code,date,channel,status,customer_name,customer_phone,city,items,gross_revenue,delivery_fee,returned\n'
+  g.fetch = (async (url: unknown) => {
+    const href = String(url)
+    if (href.includes('orders.csv')) {
+      return { ok: true, status: 200, headers: { get: () => 'text/csv' }, text: async () => placeholder } as any
+    }
+    return { ok: false, status: 404, headers: { get: () => 'text/html' }, text: async () => '' } as any
+  }) as any
+  dom.window.fetch = g.fetch
+
+  container.innerHTML = '<div id="boot">boot</div>'
+  const root3 = createRoot(container)
+  await render(createElement(App), root3)
+  await act(async () => {
+    await new Promise((r) => setTimeout(r, 80))
+  })
+  const withPlaceholder = text()
+  check('a header-only orders.csv does not wipe the dataset', withPlaceholder.includes('WAHJ-'), 'no order codes found')
+  check('the dashboard still shows real numbers', /\d/.test(withPlaceholder) && withPlaceholder.includes('Revenue'))
+
+  const reachedData = await clickButton((t) => t.startsWith('Data & Photos'))
+  await act(async () => {
+    await new Promise((r) => setTimeout(r, 40))
+  })
+  const dataScreen = text()
+  check('the data screen is reachable with a placeholder present', reachedData && dataScreen.includes('Import a CSV'))
+  check('the placeholder is reported as waiting for data', dataScreen.includes('waiting for your numbers'), dataScreen.includes('public/data/') ? 'notice missing' : 'panel missing')
+
+  await act(async () => {
+    root3.unmount()
+  })
+
   // ── hostile environment: storage blocked, as in a sandboxed iframe ──
   console.log('\nSandboxed preview (storage blocked)')
   Object.defineProperty(dom.window, 'localStorage', {

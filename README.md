@@ -8,73 +8,32 @@ maceration, ABC reorder triggers, 35 DH delivery absorbed on online packs and a
 Everything is live — change a date range, a channel, an ABC class or a business
 rule and every KPI, chart, table and stock badge recalculates instantly.
 
+---
+
+## 👉 Put your own data in — the two folders you need
+
+Both folders already exist in this repo, each with its own instructions:
+
+| | Folder | What goes in it |
+|---|---|---|
+| 📊 | **[`public/data/`](public/data)** | Your CSVs: `orders.csv`, `production.csv`, `catalogue.csv`. They are in the repo right now with the correct header row — open one on GitHub, click the pencil, and paste your export underneath. |
+| 🖼️ | **[`public/products/`](public/products)** | Product photos named after the SKU: `sauvage.jpg`, `khamrah.png`, `dior-bleu-de-chanel.webp`. Then run `npm run media:manifest`. |
+
+Anything you add to those folders is picked up automatically the next time the
+dashboard loads. Until you add real numbers, the dashboard runs on built-in sample
+data — an empty placeholder file will **never** blank your screens.
+
+You can also skip the repo entirely: open **Data & Photos** inside the dashboard and
+drag your CSV or photos straight onto the page.
+
+Filled examples of all three CSVs live in [`public/data-examples/`](public/data-examples)
+so you can see the exact shape before you start.
+
 ```bash
 npm install
 npm run dev          # http://localhost:5173
+npm run data:import  # check the CSVs you dropped in public/data/
 ```
-
----
-
-## Where do I put my own data?
-
-Two ways in, both supported at the same time.
-
-### A. Upload in the dashboard (instant, no code)
-
-Open **Data & Photos** in the sidebar. You can:
-
-- **Drop a CSV** of your orders, your production/maceration log or your product
-  catalogue — the file type is detected from the headers, you get a preview with
-  warnings, and nothing is applied until you press *Apply to dashboard*.
-- **Download a template** for any of the three shapes if you'd rather start from
-  a known-good header row.
-- **Drag product photos** onto the page (or use *Upload photo* on a single product
-  card) to attach a picture to each SKU. Photos are resized to 720 px and kept in
-  your browser.
-- **See filled examples** in [`public/data-examples/`](public/data-examples/) —
-  real-looking files in exactly the format the importer expects.
-
-### B. Commit the files to the repo (permanent, shared with everyone)
-
-| What | Where | Then |
-|---|---|---|
-| Orders / production / catalogue CSVs | `public/data/` | reload the dashboard — they load automatically |
-| Product photos | `public/products/` | run `npm run media:manifest`, reload |
-
-`public/data/` accepts these names: `orders.csv` (or `ventes.csv`),
-`production.csv` (or `batches.csv`), `catalogue.csv` (or `products.csv`).
-Load order is always catalogue → production → orders.
-
-Photos are matched to a SKU by file name, so all of these work for the same
-product: `sauvage.jpg`, `dior-sauvage.jpg`, `sauvage-dior.png`, `khamrah.webp`.
-Any SKU without a photo is rendered as a gold monogram built from its initials,
-so the dashboard never looks broken or half-finished. See
-[`public/products/README.md`](public/products/README.md).
-
-### CSV format, in one line each
-
-```
-orders     : order_code, date, channel, status, customer_name, customer_phone, city, items, gross_revenue, delivery_fee, returned
-production : perfume, production_date, bottles, status, ready_date, bottles_remaining, batch
-catalogue  : name, brand, gender, abc_class, oil_cost, bottles_per_batch, local_single_price, local_duo_price
-```
-
-Column names are matched loosely — French or English, any order, accents and
-spacing ignored. Dates accept `2026-09-24`, `24/09/2026` and Excel serial numbers.
-Amounts accept `1 234,50 DH` or `1,234.50`. Items accept `2× Sauvage; 1× Khamrah`
-or one row per item grouped by the order code. `channel` accepts
-`LOCAL`/`boutique`/`local` and `ONLINE`/`colis`/`livraison`/`instagram`.
-
-```bash
-npm run data:import      # validate every CSV in public/data/ and print what the dashboard will show
-npm test                 # 84 checks incl. an exact export → re-import round trip
-npm run smoke            # renders every screen in jsdom and walks the filters
-```
-
-**The round-trip guarantee:** export your orders from *Data & Photos*, edit them
-in Excel, import them back — orders, revenue, cost, profit, bottle counts and
-customer counts all come back byte-identical. That is what makes this safe to use
-as the system of record while the spreadsheet habit is still alive.
 
 ---
 

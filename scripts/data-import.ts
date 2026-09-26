@@ -9,12 +9,14 @@
 import { readFile, readdir } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
 import path from 'node:path'
-import { importCsv } from '../src/lib/importer'
+import { importCsv, parseCsv } from '../src/lib/importer'
 import { PACKS, PERFUMES, RULES } from '../src/data/catalog'
 import { dayKey } from '../src/lib/dates'
 
 const dataDir = path.resolve('public', 'data')
 const known = ['catalogue.csv', 'products.csv', 'production.csv', 'batches.csv', 'orders.csv', 'ventes.csv']
+
+// Load order is catalogue → production → orders, so files are validated in that order too.
 
 const money = (n: number) => `${Math.round(n).toLocaleString('en-US')} DH`
 
@@ -39,8 +41,19 @@ async function main() {
   }
 
   let failures = 0
+  let waiting = 0
   for (const file of files.sort((a, b) => known.indexOf(a) - known.indexOf(b))) {
     const text = await readFile(path.join(dataDir, file), 'utf8')
+    const parsed = parseCsv(text)
+
+    // A file with only a header row is a placeholder shipped with the repo —
+    // it is waiting for real numbers, not broken.
+    if (parsed.rows.length === 0) {
+      waiting++
+      console.log(`\n· ${file} → empty placeholder, waiting for your data (header row is correct)`)
+      continue
+    }
+
     const preview = importCsv(text, ctx)
     const icon = preview.kind === 'unknown' || !preview.rowCount ? '✗' : preview.warnings.length ? '!' : '✓'
     if (preview.kind === 'unknown') failures++
@@ -74,7 +87,9 @@ async function main() {
   console.log(
     failures
       ? `\n${failures} file(s) could not be recognised — check the header row against the templates in the dashboard (Data & Photos screen).`
-      : '\nAll files look good. Open the dashboard and they load automatically, or import them by hand on the Data & Photos screen.',
+      : waiting === files.length
+        ? `\nAll ${files.length} file(s) are empty placeholders. Paste your export under the header row in public/data/ and reload the dashboard — the sample data stays in place until you do.`
+        : '\nAll files look good. Open the dashboard and they load automatically, or import them by hand on the Data & Photos screen.',
   )
 }
 
