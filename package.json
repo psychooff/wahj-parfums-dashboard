@@ -1,0 +1,38 @@
+{
+  "name": "wahj-parfums-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "WAHJ PARFUMS \u2014 analytics dashboard (Fire in Darkness)",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "media:manifest": "node scripts/media-manifest.mjs",
+    "data:import": "tsx scripts/data-import.ts",
+    "check": "tsc --noEmit",
+    "test": "tsx scripts/test-import.ts",
+    "data:check": "tsx scripts/sanity.ts",
+    "smoke": "tsx scripts/smoke.tsx",
+    "data:examples": "tsx scripts/export-examples.ts"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.13.3"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^30.0.0",
+    "@types/node": "^26.6.3",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "jsdom": "^30.1.1",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}

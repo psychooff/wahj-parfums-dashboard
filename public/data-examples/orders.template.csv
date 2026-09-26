@@ -1,0 +1,3 @@
+order_code,date,channel,status,customer_name,customer_phone,city,items,gross_revenue,delivery_fee,returned
+WAHJ-2601,2026-09-24,LOCAL,delivered,Salma Bennani,0661 22 33 44,Casablanca,2× Yara; 1× Khamrah,187,0,0
+WAHJ-2602,2026-09-25,ONLINE,shipped,Youssef El Idrissi,0712 55 66 77,Marrakech-Safi,1× Pack Parfait — Elle,269,35,0

@@ -1,0 +1,721 @@
+order_code,date,channel,status,customer_name,customer_phone,city,items,gross_revenue,delivery_fee,returned
+WAHJ-4254,2026-05-29,ONLINE,delivered,Aya Bennani,0667 76 81 65,Rabat-Salé-Kénitra,1× Pack Découverte — Homme,189,35,0
+WAHJ-4251,2026-05-29,LOCAL,returned,Nada Fassi,+212 659 80 51 50,Casablanca,1× Asad — Lattafa,49,0,1
+WAHJ-4250,2026-05-29,LOCAL,delivered,Adam Dahbi,+212 630 95 64 89,Rabat,2× Good Girl — Carolina Herrera,89,0,0
+WAHJ-4256,2026-05-29,ONLINE,delivered,Nabil Lahlou,0698 13 47 92,Casablanca-Settat,1× Gift Box Signature; 1× Pack EID,668,35,0
+WAHJ-4255,2026-05-29,ONLINE,delivered,Ghita Tahiri,0639 21 59 43,Rabat-Salé-Kénitra,1× Pack Parfait — Elle,269,35,0
+WAHJ-4253,2026-05-29,LOCAL,delivered,Ayoub El Amrani,+212 636 17 33 27,Casablanca,1× Asad — Lattafa; 1× La Vie Est Belle — Lancôme; 1× Erba Pura — Xerjoff,147,0,0
+WAHJ-4252,2026-05-29,LOCAL,delivered,Malak Lahlou,0676 14 32 89,Mohammedia,1× Baccarat Rouge 540 — MFK,59,0,0
+WAHJ-4262,2026-05-30,ONLINE,returned,Adam Fassi,0684 30 46 33,Casablanca-Settat,1× Gift Box Signature,329,35,1
+WAHJ-4260,2026-05-30,LOCAL,delivered,Imane Ouali,+212 622 32 96 40,Casablanca,2× Baccarat Rouge 540 — MFK,109,0,0
+WAHJ-4257,2026-05-30,LOCAL,delivered,Nabil Ouali,0682 97 93 54,Casablanca,1× Libre — YSL,49,0,0
+WAHJ-4258,2026-05-30,LOCAL,delivered,Simo El Idrissi,+212 684 47 71 93,Casablanca,1× Khamrah — Lattafa,49,0,0
+WAHJ-4261,2026-05-30,ONLINE,delivered,Bilal El Idrissi,+212 660 47 31 28,Souss-Massa,1× Gift Box Signature,329,35,0
+WAHJ-4259,2026-05-30,LOCAL,delivered,Othmane Lahlou,0647 84 54 60,Casablanca,2× Oud Wood — Tom Ford,109,0,0
+WAHJ-4266,2026-05-31,ONLINE,delivered,Ayoub Naciri,0665 56 78 73,Marrakech-Safi,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4268,2026-05-31,ONLINE,returned,Anas Bennani,0636 15 51 12,Casablanca-Settat,1× Pack Découverte — Homme; 1× Pack Découverte — Femme,378,35,1
+WAHJ-4264,2026-05-31,LOCAL,delivered,Imane Chraibi,0690 30 69 87,Casablanca,2× 1 Million — Paco Rabanne,89,0,0
+WAHJ-4265,2026-05-31,LOCAL,delivered,Marouane Sabri,0657 64 10 81,Casablanca,2× Oud Wood — Tom Ford,109,0,0
+WAHJ-4267,2026-05-31,ONLINE,delivered,Nisrine Lahlou,+212 677 95 21 44,Rabat-Salé-Kénitra,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4263,2026-05-31,LOCAL,delivered,Aya Moutawakil,0680 36 49 94,Casablanca,1× Khamrah — Lattafa; 1× Bleu de Chanel — Chanel,98,0,0
+WAHJ-4272,2026-06-01,ONLINE,delivered,Salma Chraibi,0653 50 46 73,Tanger-Tétouan-Al Hoceïma,1× Pack Parfait — Oud Royale,299,35,0
+WAHJ-4269,2026-06-01,LOCAL,delivered,Mehdi Naciri,+212 627 98 58 11,Casablanca,2× La Vie Est Belle — Lancôme; 2× Sauvage — Dior,178,0,0
+WAHJ-4271,2026-06-01,ONLINE,delivered,Bilal El Amrani,+212 637 12 84 58,Marrakech-Safi,1× Pack EID,339,35,0
+WAHJ-4270,2026-06-01,LOCAL,delivered,Imane El Idrissi,+212 668 32 80 60,Rabat,1× La Vie Est Belle — Lancôme,49,0,0
+WAHJ-4278,2026-06-02,ONLINE,delivered,Reda Benali,0688 10 81 91,Casablanca-Settat,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4273,2026-06-02,LOCAL,delivered,Nabil El Idrissi,+212 647 91 81 53,Salé,1× 9PM — Afnan,49,0,0
+WAHJ-4275,2026-06-02,LOCAL,delivered,Othmane Moutawakil,0612 92 37 71,Casablanca,2× Khamrah — Lattafa,89,0,0
+WAHJ-4277,2026-06-02,ONLINE,delivered,Marouane Chraibi,0624 14 13 43,Casablanca-Settat,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4274,2026-06-02,LOCAL,delivered,Yasmine Zeroual,0677 47 88 59,Casablanca,1× Asad — Lattafa; 1× Sauvage — Dior,98,0,0
+WAHJ-4276,2026-06-02,ONLINE,returned,Douae Zeroual,0693 54 94 40,Casablanca-Settat,1× Pack EID,339,35,1
+WAHJ-4280,2026-06-03,LOCAL,delivered,Kenza Kettani,0644 60 70 84,Casablanca,1× Yara — Lattafa,49,0,0
+WAHJ-4282,2026-06-03,ONLINE,returned,Youssef Sabri,+212 628 85 44 65,Casablanca-Settat,1× Pack Découverte — Homme,189,35,1
+WAHJ-4279,2026-06-03,LOCAL,delivered,Othmane Kettani,0636 14 22 50,Casablanca,2× Oud Wood — Tom Ford,109,0,0
+WAHJ-4281,2026-06-03,ONLINE,returned,Nabil Lahlou,0698 13 47 92,Casablanca-Settat,1× Pack Parfait — Méditerranée,249,35,1
+WAHJ-4284,2026-06-04,LOCAL,delivered,Ilias Naciri,+212 659 79 83 50,Casablanca,2× Yara — Lattafa,89,0,0
+WAHJ-4285,2026-06-04,ONLINE,returned,Ilias Ouali,0684 99 17 61,Casablanca-Settat,1× Pack Parfait — Elle,269,35,1
+WAHJ-4287,2026-06-04,ONLINE,delivered,Lina Tahiri,0663 76 53 59,Rabat-Salé-Kénitra,1× Pack Parfait — Oud Royale; 1× Pack Couple — Lui & Elle,578,35,0
+WAHJ-4283,2026-06-04,LOCAL,delivered,Ghita Sabri,0679 68 10 45,Mohammedia,2× Hawas — Rasasi,89,0,0
+WAHJ-4286,2026-06-04,ONLINE,delivered,Hamza Kettani,+212 622 90 30 38,Casablanca-Settat,1× Pack Parfait — Oud Royale,299,35,0
+WAHJ-4291,2026-06-05,ONLINE,delivered,Nabil Dahbi,0685 74 42 16,Rabat-Salé-Kénitra,1× Pack Parfait — Elle,269,35,0
+WAHJ-4288,2026-06-05,LOCAL,delivered,Ayoub El Amrani,+212 636 17 33 27,Casablanca,2× Eros — Versace,89,0,0
+WAHJ-4289,2026-06-05,LOCAL,delivered,Nisrine El Idrissi,+212 659 45 66 83,Casablanca,1× Hawas — Rasasi,49,0,0
+WAHJ-4290,2026-06-05,LOCAL,delivered,Zakaria Dahbi,+212 646 52 83 18,Casablanca,1× Aventus — Creed; 1× Invictus — Paco Rabanne,108,0,0
+WAHJ-4292,2026-06-05,ONLINE,delivered,Nada Moutawakil,0654 89 47 25,Casablanca-Settat,1× Pack Découverte — Homme,189,35,0
+WAHJ-4294,2026-06-06,LOCAL,delivered,Aya Sabri,+212 679 90 29 73,Casablanca,2× Yara — Lattafa,89,0,0
+WAHJ-4297,2026-06-06,ONLINE,delivered,Rim Tahiri,0667 26 65 30,Rabat-Salé-Kénitra,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4295,2026-06-06,LOCAL,delivered,Malak Sabri,0675 39 68 36,Casablanca,1× Erba Pura — Xerjoff,49,0,0
+WAHJ-4293,2026-06-06,LOCAL,delivered,Marouane Fassi,+212 645 12 15 84,Casablanca,1× Baccarat Rouge 540 — MFK,59,0,0
+WAHJ-4296,2026-06-06,ONLINE,delivered,Ghita Ouali,0663 61 75 36,Tanger-Tétouan-Al Hoceïma,1× Pack Parfait — Oud Royale; 1× Pack Parfait — Elle,568,35,0
+WAHJ-4302,2026-06-07,ONLINE,delivered,Ghita El Idrissi,+212 678 97 85 37,Laâyoune-Sakia El Hamra,1× Pack Parfait — Elle; 1× Pack Couple — Lui & Elle,548,35,0
+WAHJ-4299,2026-06-07,LOCAL,delivered,Rim Kettani,+212 628 91 35 49,Casablanca,2× Hawas — Rasasi,89,0,0
+WAHJ-4300,2026-06-07,LOCAL,delivered,Ghita Chraibi,+212 679 55 10 88,Casablanca,2× Erba Pura — Xerjoff,89,0,0
+WAHJ-4304,2026-06-07,ONLINE,delivered,Hamza El Idrissi,0670 56 59 84,Casablanca-Settat,1× Pack Découverte — Femme,189,35,0
+WAHJ-4303,2026-06-07,ONLINE,delivered,Imane Dahbi,0617 10 26 99,Casablanca-Settat,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4301,2026-06-07,LOCAL,delivered,Anas Benali,0678 69 15 18,Casablanca,2× Libre — YSL,89,0,0
+WAHJ-4298,2026-06-07,LOCAL,delivered,Bilal Naciri,+212 686 22 81 81,Bouskoura,1× Khamrah — Lattafa,49,0,0
+WAHJ-4306,2026-06-08,LOCAL,delivered,Simo Naciri,+212 679 68 23 35,Casablanca,1× Sauvage — Dior,49,0,0
+WAHJ-4307,2026-06-08,LOCAL,delivered,Zineb Fassi,0687 57 18 46,Casablanca,1× Invictus — Paco Rabanne,49,0,0
+WAHJ-4309,2026-06-08,ONLINE,delivered,Nabil Lahlou,+212 655 92 83 66,Casablanca-Settat,1× Pack Parfait — Elle; 1× Pack Parfait — Oud Royale,568,35,0
+WAHJ-4305,2026-06-08,LOCAL,delivered,Salma Naciri,0654 25 82 94,Casablanca,1× Baccarat Rouge 540 — MFK,59,0,0
+WAHJ-4308,2026-06-08,ONLINE,delivered,Zakaria Tahiri,0629 66 91 83,Casablanca-Settat,1× Pack Découverte — Femme,189,35,0
+WAHJ-4312,2026-06-09,ONLINE,delivered,Sara Moutawakil,0653 82 60 71,Casablanca-Settat,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4311,2026-06-09,LOCAL,delivered,Karim Zeroual,+212 656 49 81 45,Casablanca,1× Baccarat Rouge 540 — MFK,59,0,0
+WAHJ-4310,2026-06-09,LOCAL,delivered,Anas El Amrani,+212 659 37 86 82,Casablanca,1× Sì — Giorgio Armani,49,0,0
+WAHJ-4313,2026-06-09,ONLINE,delivered,Zineb Chraibi,+212 650 47 75 36,Casablanca-Settat,1× Pack Parfait — Elle,269,35,0
+WAHJ-4314,2026-06-10,LOCAL,delivered,Othmane Benali,0628 23 29 42,Casablanca,1× Aventus — Creed,59,0,0
+WAHJ-4316,2026-06-10,LOCAL,delivered,Malak Tahiri,+212 677 41 26 59,Casablanca,2× Bleu de Chanel — Chanel,89,0,0
+WAHJ-4315,2026-06-10,LOCAL,delivered,Douae Berrada,0623 57 77 20,Mohammedia,2× La Vie Est Belle — Lancôme,89,0,0
+WAHJ-4317,2026-06-10,ONLINE,delivered,Salma Berrada,+212 690 49 63 19,Fès-Meknès,1× Pack EID,339,35,0
+WAHJ-4323,2026-06-11,ONLINE,delivered,Hajar Zeroual,0662 38 54 51,Fès-Meknès,1× Pack Parfait — Oud Royale,299,35,0
+WAHJ-4319,2026-06-11,LOCAL,delivered,Nisrine Benali,0667 51 69 15,Salé,1× Khamrah — Lattafa,49,0,0
+WAHJ-4320,2026-06-11,LOCAL,delivered,Othmane Benali,0628 23 29 42,Casablanca,1× Khamrah — Lattafa,49,0,0
+WAHJ-4321,2026-06-11,LOCAL,delivered,Anas Kettani,+212 679 51 21 98,Bouskoura,1× 9PM — Afnan,49,0,0
+WAHJ-4318,2026-06-11,LOCAL,delivered,Aya Sabri,0630 51 69 15,Casablanca,1× Sauvage — Dior,49,0,0
+WAHJ-4322,2026-06-11,ONLINE,delivered,Nisrine Lahlou,0624 66 82 86,Rabat-Salé-Kénitra,1× Pack Découverte — Femme,189,35,0
+WAHJ-4329,2026-06-12,ONLINE,delivered,Sara Kettani,+212 644 55 55 11,Casablanca-Settat,1× Pack Parfait — Oud Royale; 1× Pack Parfait — Méditerranée,548,35,0
+WAHJ-4330,2026-06-12,ONLINE,delivered,Imane Bennani,+212 651 44 28 53,Fès-Meknès,1× Pack Parfait — Elle,269,35,0
+WAHJ-4328,2026-06-12,LOCAL,delivered,Imane Tahiri,0621 75 35 39,Casablanca,1× Amber Oud Gold — Al Haramain,49,0,0
+WAHJ-4331,2026-06-12,ONLINE,delivered,Nada Benali,0618 26 85 11,Casablanca-Settat,1× Pack Parfait — Elle,269,35,0
+WAHJ-4324,2026-06-12,LOCAL,delivered,Aya Kettani,0664 17 97 39,Casablanca,1× 1 Million — Paco Rabanne,49,0,0
+WAHJ-4326,2026-06-12,LOCAL,delivered,Aya Kettani,0664 17 97 39,Casablanca,2× Khamrah — Lattafa,89,0,0
+WAHJ-4327,2026-06-12,LOCAL,delivered,Nisrine Dahbi,0638 94 56 65,Mohammedia,2× La Vie Est Belle — Lancôme,89,0,0
+WAHJ-4325,2026-06-12,LOCAL,delivered,Othmane Kettani,+212 615 65 32 70,Casablanca,1× La Vie Est Belle — Lancôme,49,0,0
+WAHJ-4336,2026-06-13,LOCAL,delivered,Nada Sabri,0646 59 44 84,Casablanca,2× Bleu de Chanel — Chanel,89,0,0
+WAHJ-4332,2026-06-13,LOCAL,delivered,Anas Chraibi,0655 45 20 79,Casablanca,2× Oud Wood — Tom Ford,109,0,0
+WAHJ-4333,2026-06-13,LOCAL,delivered,Douae Fassi,+212 642 54 40 30,Rabat,1× Hacivat — Nishane,59,0,0
+WAHJ-4337,2026-06-13,ONLINE,delivered,Nabil Dahbi,0685 74 42 16,Rabat-Salé-Kénitra,1× Gift Box Signature,329,35,0
+WAHJ-4338,2026-06-13,ONLINE,delivered,Douae Zeroual,0693 54 94 40,Casablanca-Settat,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4334,2026-06-13,LOCAL,delivered,Simo El Idrissi,+212 684 47 71 93,Casablanca,2× Yara — Lattafa,89,0,0
+WAHJ-4335,2026-06-13,LOCAL,delivered,Marouane Bennani,+212 673 82 81 65,Casablanca,2× Libre — YSL,89,0,0
+WAHJ-4339,2026-06-13,ONLINE,delivered,Kenza Ouali,0637 57 75 98,Souss-Massa,1× Pack EID,339,35,0
+WAHJ-4340,2026-06-14,LOCAL,delivered,Douae Chraibi,0658 12 82 77,Casablanca,2× Khamrah — Lattafa,89,0,0
+WAHJ-4345,2026-06-14,ONLINE,delivered,Adam Chraibi,0616 51 83 46,Tanger-Tétouan-Al Hoceïma,1× Gift Box Signature,329,35,0
+WAHJ-4341,2026-06-14,LOCAL,delivered,Mehdi Tahiri,+212 670 35 89 81,Bouskoura,2× Khamrah — Lattafa,89,0,0
+WAHJ-4342,2026-06-14,LOCAL,delivered,Ghita Benali,+212 641 57 79 23,Casablanca,1× Lost Cherry — Tom Ford,59,0,0
+WAHJ-4344,2026-06-14,ONLINE,delivered,Karim Moutawakil,+212 613 45 85 25,Casablanca-Settat,1× Pack Découverte — Femme,189,35,0
+WAHJ-4343,2026-06-14,LOCAL,delivered,Kenza Ouali,+212 635 68 65 34,Casablanca,1× Sauvage — Dior; 1× Khamrah — Lattafa,98,0,0
+WAHJ-4346,2026-06-14,ONLINE,delivered,Mehdi Dahbi,0623 26 71 34,Marrakech-Safi,1× Pack EID,339,35,0
+WAHJ-4349,2026-06-15,ONLINE,delivered,Bilal Moutawakil,0654 70 40 57,Tanger-Tétouan-Al Hoceïma,1× Pack Découverte — Homme,189,35,0
+WAHJ-4351,2026-06-15,ONLINE,delivered,Aya Bennani,+212 630 24 92 59,Casablanca-Settat,1× Gift Box Signature,329,35,0
+WAHJ-4348,2026-06-15,LOCAL,delivered,Adam Naciri,0650 94 95 23,Casablanca,1× Erba Pura — Xerjoff,49,0,0
+WAHJ-4347,2026-06-15,LOCAL,delivered,Hajar Naciri,+212 630 66 41 18,Casablanca,2× Hawas — Rasasi,89,0,0
+WAHJ-4350,2026-06-15,ONLINE,delivered,Adam El Amrani,0613 93 10 17,Fès-Meknès,1× Pack Couple — Lui & Elle; 1× Pack Parfait — Méditerranée,528,35,0
+WAHJ-4352,2026-06-16,LOCAL,delivered,Douae Bennani,+212 688 79 64 74,Salé,1× Hawas — Rasasi,49,0,0
+WAHJ-4354,2026-06-16,ONLINE,delivered,Nisrine Ouali,0669 93 90 66,Tanger-Tétouan-Al Hoceïma,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4353,2026-06-16,LOCAL,delivered,Nisrine El Idrissi,0681 71 89 38,Mohammedia,2× Angel's Share — Kilian,109,0,0
+WAHJ-4355,2026-06-16,ONLINE,delivered,Sara Moutawakil,0653 82 60 71,Casablanca-Settat,1× Pack Découverte — Femme,189,35,0
+WAHJ-4357,2026-06-17,LOCAL,delivered,Sara Lahlou,0618 18 27 78,Casablanca,2× Asad — Lattafa,89,0,0
+WAHJ-4358,2026-06-17,LOCAL,delivered,Mehdi Tahiri,+212 670 35 89 81,Bouskoura,1× Lost Cherry — Tom Ford,59,0,0
+WAHJ-4360,2026-06-17,ONLINE,delivered,Lina Bennani,0668 44 89 97,Marrakech-Safi,1× Pack Parfait — Oud Royale,299,35,0
+WAHJ-4359,2026-06-17,ONLINE,delivered,Nabil Fassi,0659 24 47 63,Oriental,1× Gift Box Signature,329,35,0
+WAHJ-4356,2026-06-17,LOCAL,delivered,Aya Kettani,0664 17 97 39,Casablanca,1× Luna Rossa — Prada,49,0,0
+WAHJ-4361,2026-06-18,LOCAL,delivered,Aya Sabri,+212 630 65 58 48,Casablanca,2× Yara — Lattafa,89,0,0
+WAHJ-4363,2026-06-18,LOCAL,delivered,Salma Naciri,0654 25 82 94,Casablanca,2× Bleu de Chanel — Chanel; 2× Good Girl — Carolina Herrera,178,0,0
+WAHJ-4362,2026-06-18,LOCAL,delivered,Nabil Tahiri,0691 81 31 50,Casablanca,2× Oud Wood — Tom Ford,109,0,0
+WAHJ-4365,2026-06-18,ONLINE,returned,Nisrine Dahbi,0681 39 57 65,Rabat-Salé-Kénitra,1× Pack Parfait — Méditerranée; 1× Pack Parfait — Méditerranée,498,35,1
+WAHJ-4364,2026-06-18,ONLINE,delivered,Douae Chraibi,+212 656 72 78 81,Marrakech-Safi,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4371,2026-06-19,ONLINE,returned,Nabil Dahbi,0685 74 42 16,Rabat-Salé-Kénitra,1× Gift Box Signature,329,35,1
+WAHJ-4370,2026-06-19,ONLINE,delivered,Ayoub Chraibi,0626 78 63 95,Casablanca-Settat,1× Pack Parfait — Elle,269,35,0
+WAHJ-4366,2026-06-19,LOCAL,delivered,Hajar Naciri,+212 630 66 41 18,Casablanca,1× Lost Cherry — Tom Ford; 1× Sauvage — Dior; 1× Hawas — Rasasi,157,0,0
+WAHJ-4369,2026-06-19,ONLINE,delivered,Rim Moutawakil,+212 665 24 79 85,Casablanca-Settat,1× Pack Parfait — Méditerranée; 1× Pack Parfait — Méditerranée,498,35,0
+WAHJ-4368,2026-06-19,LOCAL,delivered,Hajar Ouali,+212 649 43 36 90,Casablanca,1× Asad — Lattafa,49,0,0
+WAHJ-4367,2026-06-19,LOCAL,delivered,Nisrine Moutawakil,0621 68 26 84,Rabat,1× Baccarat Rouge 540 — MFK,59,0,0
+WAHJ-4374,2026-06-20,LOCAL,delivered,Bilal Dahbi,0643 22 17 82,Casablanca,1× Khamrah — Lattafa,49,0,0
+WAHJ-4377,2026-06-20,ONLINE,delivered,Mehdi Dahbi,0668 28 83 45,Marrakech-Safi,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4375,2026-06-20,LOCAL,delivered,Kenza Ouali,+212 635 68 65 34,Casablanca,2× Hacivat — Nishane,109,0,0
+WAHJ-4376,2026-06-20,LOCAL,delivered,Youssef Sabri,0660 21 51 90,Rabat,2× Good Girl — Carolina Herrera,89,0,0
+WAHJ-4378,2026-06-20,ONLINE,delivered,Lina Chraibi,+212 650 80 37 18,Casablanca-Settat,1× Pack Parfait — Méditerranée; 1× Pack Parfait — Oud Royale,548,35,0
+WAHJ-4372,2026-06-20,LOCAL,delivered,Ayoub El Amrani,+212 636 17 33 27,Casablanca,2× Ombre Nomade — Louis Vuitton,109,0,0
+WAHJ-4373,2026-06-20,LOCAL,delivered,Simo Kettani,0628 55 76 38,Casablanca,1× Ombre Nomade — Louis Vuitton; 1× Yara — Lattafa; 1× Asad — Lattafa,157,0,0
+WAHJ-4379,2026-06-20,ONLINE,returned,Adam Chraibi,0616 51 83 46,Tanger-Tétouan-Al Hoceïma,1× Pack Parfait — Elle,269,35,1
+WAHJ-4385,2026-06-21,ONLINE,delivered,Yasmine Naciri,0665 83 87 82,Tanger-Tétouan-Al Hoceïma,1× Pack Découverte — Femme; 1× Pack Couple — Lui & Elle,468,35,0
+WAHJ-4380,2026-06-21,LOCAL,delivered,Mehdi Lahlou,+212 661 44 25 10,Casablanca,1× Midnight Oud — Ard Al Zaafaran,49,0,0
+WAHJ-4383,2026-06-21,LOCAL,delivered,Adam Lahlou,+212 642 47 79 79,Casablanca,1× Khamrah — Lattafa,49,0,0
+WAHJ-4381,2026-06-21,LOCAL,delivered,Othmane Zeroual,0630 49 71 33,Salé,1× Oud Wood — Tom Ford; 1× Good Girl — Carolina Herrera; 1× Baccarat Rouge 540 — MFK,167,0,0
+WAHJ-4384,2026-06-21,ONLINE,delivered,Sara El Amrani,0629 54 87 76,Rabat-Salé-Kénitra,1× Pack Parfait — Oud Royale,299,35,0
+WAHJ-4382,2026-06-21,LOCAL,returned,Aya Kettani,0664 17 97 39,Casablanca,2× Asad — Lattafa; 2× Baccarat Rouge 540 — MFK,198,0,1
+WAHJ-4388,2026-06-22,ONLINE,delivered,Anas Lahlou,0679 70 16 85,Marrakech-Safi,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4387,2026-06-22,LOCAL,delivered,Mehdi Lahlou,+212 661 44 25 10,Casablanca,1× Amber Oud Gold — Al Haramain,49,0,0
+WAHJ-4386,2026-06-22,LOCAL,delivered,Mehdi Tahiri,+212 670 35 89 81,Bouskoura,2× Oud Wood — Tom Ford,109,0,0
+WAHJ-4389,2026-06-22,ONLINE,delivered,Nisrine Naciri,+212 612 98 78 72,Marrakech-Safi,1× Gift Box Signature,329,35,0
+WAHJ-4390,2026-06-23,LOCAL,delivered,Bilal Tahiri,+212 656 15 81 41,Casablanca,1× 1 Million — Paco Rabanne,49,0,0
+WAHJ-4393,2026-06-23,ONLINE,delivered,Zineb Lahlou,0654 35 67 12,Casablanca-Settat,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4392,2026-06-23,ONLINE,delivered,Anas Benali,0642 76 88 94,Casablanca-Settat,1× Pack Parfait — Elle,269,35,0
+WAHJ-4391,2026-06-23,LOCAL,delivered,Douae Fassi,+212 642 54 40 30,Rabat,2× Hawas — Rasasi; 2× Hawas — Rasasi,178,0,0
+WAHJ-4396,2026-06-24,ONLINE,delivered,Youssef Naciri,0624 63 41 39,Fès-Meknès,1× Pack EID,339,35,0
+WAHJ-4395,2026-06-24,LOCAL,delivered,Nada Sabri,0649 13 67 15,Bouskoura,1× Sauvage — Dior,49,0,0
+WAHJ-4397,2026-06-24,ONLINE,delivered,Nisrine Tahiri,0644 39 74 66,Fès-Meknès,1× Pack Parfait — Oud Royale; 1× Pack Couple — Lui & Elle,578,35,0
+WAHJ-4394,2026-06-24,LOCAL,delivered,Douae Fassi,0660 27 60 53,Casablanca,1× Khamrah — Lattafa,49,0,0
+WAHJ-4398,2026-06-25,LOCAL,delivered,Youssef Berrada,0666 82 94 16,Casablanca,1× Baccarat Rouge 540 — MFK; 1× Libre — YSL,108,0,0
+WAHJ-4402,2026-06-25,ONLINE,delivered,Zineb Lahlou,+212 649 54 35 64,Souss-Massa,1× Pack EID,339,35,0
+WAHJ-4403,2026-06-25,ONLINE,delivered,Othmane Berrada,+212 676 96 52 89,Casablanca-Settat,1× Pack Parfait — Oud Royale,299,35,0
+WAHJ-4400,2026-06-25,LOCAL,delivered,Marouane Fassi,+212 645 12 15 84,Casablanca,2× Asad — Lattafa,89,0,0
+WAHJ-4401,2026-06-25,ONLINE,delivered,Adam El Amrani,0613 93 10 17,Fès-Meknès,1× Pack EID,339,35,0
+WAHJ-4399,2026-06-25,LOCAL,returned,Ghita Sabri,0679 68 10 45,Mohammedia,1× Midnight Oud — Ard Al Zaafaran,49,0,1
+WAHJ-4408,2026-06-26,ONLINE,delivered,Sara Naciri,0650 65 22 97,Tanger-Tétouan-Al Hoceïma,1× Gift Box Signature,329,35,0
+WAHJ-4406,2026-06-26,LOCAL,delivered,Marouane Zeroual,0686 59 39 18,Rabat,1× Libre — YSL,49,0,0
+WAHJ-4407,2026-06-26,LOCAL,delivered,Rim El Idrissi,0613 98 69 57,Casablanca,2× Hawas — Rasasi,89,0,0
+WAHJ-4410,2026-06-26,ONLINE,delivered,Sara Ouali,0680 33 25 70,Fès-Meknès,1× Pack Découverte — Homme,189,35,0
+WAHJ-4404,2026-06-26,LOCAL,delivered,Douae Ouali,0626 84 98 52,Bouskoura,1× Baccarat Rouge 540 — MFK; 1× La Vie Est Belle — Lancôme,108,0,0
+WAHJ-4409,2026-06-26,ONLINE,delivered,Nisrine Ouali,0669 93 90 66,Tanger-Tétouan-Al Hoceïma,1× Gift Box Signature,329,35,0
+WAHJ-4405,2026-06-26,LOCAL,delivered,Marouane Kettani,+212 669 58 89 92,Casablanca,1× Oud Wood — Tom Ford,59,0,0
+WAHJ-4419,2026-06-27,ONLINE,cancelled,Zakaria Tahiri,+212 629 26 99 90,Fès-Meknès,1× Pack Découverte — Homme,189,35,0
+WAHJ-4412,2026-06-27,LOCAL,delivered,Aya Moutawakil,0637 74 69 34,Casablanca,1× Lost Cherry — Tom Ford; 1× Yara — Lattafa,108,0,0
+WAHJ-4416,2026-06-27,LOCAL,delivered,Simo Dahbi,+212 610 76 51 85,Bouskoura,1× Baccarat Rouge 540 — MFK; 1× La Vie Est Belle — Lancôme,108,0,0
+WAHJ-4418,2026-06-27,ONLINE,delivered,Nabil El Idrissi,+212 686 16 48 50,Rabat-Salé-Kénitra,1× Pack Parfait — Elle,269,35,0
+WAHJ-4411,2026-06-27,LOCAL,delivered,Nisrine Zeroual,+212 642 54 63 38,Casablanca,2× Erba Pura — Xerjoff; 2× Sauvage — Dior,178,0,0
+WAHJ-4414,2026-06-27,LOCAL,delivered,Douae Dahbi,0622 10 45 50,Casablanca,2× Sauvage — Dior,89,0,0
+WAHJ-4413,2026-06-27,LOCAL,delivered,Youssef El Amrani,0645 45 46 24,Casablanca,1× Good Girl — Carolina Herrera,49,0,0
+WAHJ-4417,2026-06-27,ONLINE,delivered,Nabil Lahlou,0698 13 47 92,Casablanca-Settat,1× Pack Parfait — Oud Royale,299,35,0
+WAHJ-4415,2026-06-27,LOCAL,delivered,Zakaria Dahbi,+212 692 74 34 80,Casablanca,1× Shalimar — Guerlain,49,0,0
+WAHJ-4425,2026-06-28,ONLINE,delivered,Nisrine Fassi,0658 87 99 41,Rabat-Salé-Kénitra,1× Pack Parfait — Elle,269,35,0
+WAHJ-4424,2026-06-28,ONLINE,returned,Yasmine El Amrani,0612 35 39 65,Casablanca-Settat,1× Pack Couple — Lui & Elle,279,35,1
+WAHJ-4421,2026-06-28,LOCAL,delivered,Hamza Chraibi,+212 684 44 89 92,Casablanca,1× Baccarat Rouge 540 — MFK,59,0,0
+WAHJ-4423,2026-06-28,ONLINE,delivered,Salma Chraibi,0696 35 51 84,Casablanca-Settat,1× Pack Parfait — Elle; 1× Pack Découverte — Femme,458,35,0
+WAHJ-4422,2026-06-28,LOCAL,delivered,Mehdi Lahlou,+212 661 44 25 10,Casablanca,1× Invictus — Paco Rabanne; 1× Sauvage — Dior,98,0,0
+WAHJ-4420,2026-06-28,LOCAL,delivered,Marouane Zeroual,0686 59 39 18,Rabat,1× Khamrah — Lattafa,49,0,0
+WAHJ-4428,2026-06-29,LOCAL,delivered,Hajar El Amrani,0622 37 61 96,Casablanca,1× Good Girl — Carolina Herrera; 1× Libre — YSL; 1× Luna Rossa — Prada,147,0,0
+WAHJ-4427,2026-06-29,LOCAL,delivered,Marouane Moutawakil,0690 77 79 79,Casablanca,2× Baccarat Rouge 540 — MFK,109,0,0
+WAHJ-4426,2026-06-29,LOCAL,delivered,Ayoub Tahiri,0656 84 39 85,Casablanca,1× Invictus — Paco Rabanne,49,0,0
+WAHJ-4429,2026-06-29,ONLINE,delivered,Douae El Idrissi,0652 49 35 89,Tanger-Tétouan-Al Hoceïma,1× Pack Découverte — Homme; 1× Pack Découverte — Femme,378,35,0
+WAHJ-4431,2026-06-30,LOCAL,delivered,Sara Dahbi,0613 67 84 99,Bouskoura,1× Midnight Oud — Ard Al Zaafaran; 1× Le Male — Jean Paul Gaultier,98,0,0
+WAHJ-4434,2026-06-30,ONLINE,delivered,Lina Tahiri,+212 686 33 91 50,Marrakech-Safi,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4432,2026-06-30,LOCAL,delivered,Sara Kettani,+212 620 59 57 76,Casablanca,1× Baccarat Rouge 540 — MFK,59,0,0
+WAHJ-4433,2026-06-30,ONLINE,delivered,Yasmine Fassi,0697 56 81 17,Oriental,1× Pack Découverte — Homme,189,35,0
+WAHJ-4430,2026-06-30,LOCAL,delivered,Nisrine El Idrissi,+212 659 45 66 83,Casablanca,1× Libre — YSL,49,0,0
+WAHJ-4437,2026-07-01,LOCAL,delivered,Salma Naciri,0654 25 82 94,Casablanca,1× Bleu de Chanel — Chanel,49,0,0
+WAHJ-4439,2026-07-01,ONLINE,delivered,Reda El Amrani,+212 654 63 26 84,Casablanca-Settat,1× Pack Parfait — Elle,269,35,0
+WAHJ-4438,2026-07-01,ONLINE,delivered,Reda Benali,0661 29 98 91,Tanger-Tétouan-Al Hoceïma,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4436,2026-07-01,LOCAL,delivered,Ayoub El Amrani,+212 636 17 33 27,Casablanca,2× Asad — Lattafa,89,0,0
+WAHJ-4435,2026-07-01,LOCAL,delivered,Salma Naciri,+212 624 76 50 80,Bouskoura,2× Lost Cherry — Tom Ford,109,0,0
+WAHJ-4440,2026-07-02,LOCAL,delivered,Othmane Lahlou,0641 13 58 90,Casablanca,1× Invictus — Paco Rabanne,49,0,0
+WAHJ-4442,2026-07-02,LOCAL,delivered,Sara Dahbi,0613 67 84 99,Bouskoura,2× Invictus — Paco Rabanne; 2× Sauvage — Dior,178,0,0
+WAHJ-4446,2026-07-02,ONLINE,delivered,Nisrine Berrada,0618 25 68 26,Casablanca-Settat,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4445,2026-07-02,ONLINE,delivered,Youssef Fassi,0617 70 85 74,Casablanca-Settat,1× Pack EID,339,35,0
+WAHJ-4441,2026-07-02,LOCAL,delivered,Lina Kettani,+212 696 52 91 87,Casablanca,2× Le Male — Jean Paul Gaultier,89,0,0
+WAHJ-4444,2026-07-02,ONLINE,delivered,Lina Tahiri,0663 76 53 59,Rabat-Salé-Kénitra,1× Pack Parfait — Elle,269,35,0
+WAHJ-4443,2026-07-02,LOCAL,delivered,Nabil Benali,0636 28 38 67,Casablanca,1× La Vie Est Belle — Lancôme; 1× Asad — Lattafa,98,0,0
+WAHJ-4453,2026-07-03,ONLINE,delivered,Reda Moutawakil,0654 46 78 40,Marrakech-Safi,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4447,2026-07-03,LOCAL,delivered,Ghita Chraibi,+212 679 55 10 88,Casablanca,2× Asad — Lattafa; 2× Good Girl — Carolina Herrera,178,0,0
+WAHJ-4454,2026-07-03,ONLINE,returned,Reda Moutawakil,0654 46 78 40,Marrakech-Safi,1× Pack Parfait — Elle,269,35,1
+WAHJ-4449,2026-07-03,LOCAL,delivered,Zineb Moutawakil,+212 681 27 76 32,Bouskoura,1× Amber Oud Gold — Al Haramain,49,0,0
+WAHJ-4451,2026-07-03,LOCAL,delivered,Nabil Ouali,+212 619 56 41 51,Casablanca,1× Shalimar — Guerlain; 1× La Vie Est Belle — Lancôme,98,0,0
+WAHJ-4450,2026-07-03,LOCAL,delivered,Nabil El Amrani,+212 671 46 44 18,Casablanca,2× Erba Pura — Xerjoff,89,0,0
+WAHJ-4448,2026-07-03,LOCAL,delivered,Mehdi Sabri,0656 35 75 22,Casablanca,2× Baccarat Rouge 540 — MFK,109,0,0
+WAHJ-4452,2026-07-03,ONLINE,delivered,Mehdi Berrada,0631 95 37 55,Marrakech-Safi,1× Pack Parfait — Oud Royale,299,35,0
+WAHJ-4457,2026-07-04,LOCAL,delivered,Ayoub El Amrani,+212 636 17 33 27,Casablanca,1× Yara — Lattafa,49,0,0
+WAHJ-4455,2026-07-04,LOCAL,delivered,Salma Naciri,+212 665 75 13 73,Casablanca,1× Ombre Nomade — Louis Vuitton,59,0,0
+WAHJ-4458,2026-07-04,LOCAL,delivered,Anas Bennani,0621 90 19 72,Casablanca,2× Bleu de Chanel — Chanel,89,0,0
+WAHJ-4460,2026-07-04,LOCAL,delivered,Adam Bennani,+212 637 80 66 77,Casablanca,1× Good Girl — Carolina Herrera; 1× Oud Wood — Tom Ford,108,0,0
+WAHJ-4459,2026-07-04,LOCAL,delivered,Nisrine Zeroual,+212 642 54 63 38,Casablanca,2× Baccarat Rouge 540 — MFK; 2× Aventus — Creed,218,0,0
+WAHJ-4461,2026-07-04,ONLINE,delivered,Zineb Lahlou,+212 649 54 35 64,Souss-Massa,1× Gift Box Signature; 1× Pack Parfait — Elle,598,35,0
+WAHJ-4463,2026-07-04,ONLINE,delivered,Kenza Kettani,0620 85 48 45,Fès-Meknès,1× Pack Parfait — Elle; 1× Pack Parfait — Elle,538,35,0
+WAHJ-4462,2026-07-04,ONLINE,delivered,Mehdi Lahlou,0691 66 68 95,Rabat-Salé-Kénitra,1× Pack Parfait — Elle,269,35,0
+WAHJ-4456,2026-07-04,LOCAL,delivered,Aya Ouali,+212 678 57 32 23,Mohammedia,1× Bleu de Chanel — Chanel,49,0,0
+WAHJ-4465,2026-07-05,LOCAL,delivered,Anas Moutawakil,+212 611 24 39 51,Rabat,2× Bleu de Chanel — Chanel,89,0,0
+WAHJ-4470,2026-07-05,ONLINE,delivered,Bilal Bennani,0695 12 21 86,Tanger-Tétouan-Al Hoceïma,1× Pack Découverte — Femme,189,35,0
+WAHJ-4466,2026-07-05,LOCAL,delivered,Nisrine El Idrissi,0681 71 89 38,Mohammedia,1× Hacivat — Nishane; 1× Invictus — Paco Rabanne; 1× Bleu de Chanel — Chanel,157,0,0
+WAHJ-4469,2026-07-05,LOCAL,delivered,Nisrine El Idrissi,0681 71 89 38,Mohammedia,2× Baccarat Rouge 540 — MFK; 2× La Vie Est Belle — Lancôme,198,0,0
+WAHJ-4464,2026-07-05,LOCAL,delivered,Anas Dahbi,0660 10 44 22,Mohammedia,2× La Vie Est Belle — Lancôme,89,0,0
+WAHJ-4472,2026-07-05,ONLINE,delivered,Mehdi Lahlou,0691 66 68 95,Rabat-Salé-Kénitra,1× Pack EID,339,35,0
+WAHJ-4468,2026-07-05,LOCAL,cancelled,Youssef Chraibi,0617 99 55 30,Casablanca,2× Khamrah — Lattafa; 2× Asad — Lattafa,178,0,0
+WAHJ-4467,2026-07-05,LOCAL,delivered,Karim El Idrissi,+212 614 42 11 75,Casablanca,1× Sauvage — Dior; 1× Asad — Lattafa; 1× Invictus — Paco Rabanne,147,0,0
+WAHJ-4471,2026-07-05,ONLINE,returned,Ghita Naciri,0692 21 20 76,Casablanca-Settat,1× Pack Parfait — Méditerranée,249,35,1
+WAHJ-4473,2026-07-06,LOCAL,delivered,Ghita Ouali,+212 654 63 33 42,Casablanca,1× Invictus — Paco Rabanne,49,0,0
+WAHJ-4476,2026-07-06,ONLINE,delivered,Adam El Idrissi,+212 671 82 13 33,Fès-Meknès,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4474,2026-07-06,LOCAL,delivered,Ghita Kettani,+212 642 55 46 79,Casablanca,1× 1 Million — Paco Rabanne,49,0,0
+WAHJ-4475,2026-07-06,LOCAL,delivered,Ayoub El Amrani,+212 636 17 33 27,Casablanca,2× Le Male — Jean Paul Gaultier,89,0,0
+WAHJ-4477,2026-07-07,LOCAL,delivered,Malak Zeroual,0634 97 86 11,Bouskoura,1× Yara — Lattafa,49,0,0
+WAHJ-4478,2026-07-07,LOCAL,delivered,Mehdi Chraibi,0648 45 46 97,Casablanca,1× 1 Million — Paco Rabanne; 1× Ombre Nomade — Louis Vuitton; 1× Shalimar — Guerlain,157,0,0
+WAHJ-4479,2026-07-07,LOCAL,delivered,Anas Kettani,+212 679 51 21 98,Bouskoura,2× Oud Wood — Tom Ford,109,0,0
+WAHJ-4480,2026-07-07,ONLINE,delivered,Ilias Zeroual,0685 94 72 43,Fès-Meknès,1× Pack Parfait — Oud Royale; 1× Pack Parfait — Oud Royale,598,35,0
+WAHJ-4481,2026-07-07,ONLINE,delivered,Salma Berrada,0663 52 20 58,Tanger-Tétouan-Al Hoceïma,1× Pack EID,339,35,0
+WAHJ-4482,2026-07-08,LOCAL,delivered,Zakaria Zeroual,+212 645 66 52 60,Casablanca,1× Sauvage — Dior,49,0,0
+WAHJ-4485,2026-07-08,ONLINE,delivered,Adam Lahlou,0652 52 50 23,Marrakech-Safi,1× Pack Découverte — Homme,189,35,0
+WAHJ-4486,2026-07-08,ONLINE,delivered,Rim Moutawakil,+212 665 24 79 85,Casablanca-Settat,1× Pack Parfait — Elle,269,35,0
+WAHJ-4483,2026-07-08,LOCAL,delivered,Othmane Lahlou,0647 84 54 60,Casablanca,2× Yara — Lattafa; 2× Oud Wood — Tom Ford,198,0,0
+WAHJ-4484,2026-07-08,LOCAL,delivered,Hamza Tahiri,0688 78 36 76,Casablanca,1× Yara — Lattafa,49,0,0
+WAHJ-4487,2026-07-09,LOCAL,delivered,Malak Tahiri,0640 38 27 82,Salé,1× Sauvage — Dior; 1× Aventus — Creed,108,0,0
+WAHJ-4490,2026-07-09,ONLINE,delivered,Yasmine Bennani,0618 61 41 47,Fès-Meknès,1× Pack Parfait — Elle,269,35,0
+WAHJ-4488,2026-07-09,LOCAL,delivered,Nabil Zeroual,0698 37 56 16,Casablanca,1× 9PM — Afnan,49,0,0
+WAHJ-4491,2026-07-09,ONLINE,delivered,Salma Naciri,+212 619 73 79 95,Fès-Meknès,1× Pack Découverte — Femme,189,35,0
+WAHJ-4489,2026-07-09,LOCAL,delivered,Aya El Amrani,0674 54 86 36,Mohammedia,1× Baccarat Rouge 540 — MFK; 1× Sauvage — Dior,108,0,0
+WAHJ-4492,2026-07-09,ONLINE,delivered,Marouane El Amrani,+212 645 13 97 58,Casablanca-Settat,1× Gift Box Signature,329,35,0
+WAHJ-4497,2026-07-10,ONLINE,delivered,Zakaria El Idrissi,+212 635 95 27 71,Fès-Meknès,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4493,2026-07-10,LOCAL,delivered,Simo Fassi,0646 74 54 86,Casablanca,1× Luna Rossa — Prada,49,0,0
+WAHJ-4494,2026-07-10,LOCAL,delivered,Rim Benali,+212 688 52 96 92,Casablanca,1× Asad — Lattafa,49,0,0
+WAHJ-4496,2026-07-10,ONLINE,delivered,Yasmine Bennani,0618 61 41 47,Fès-Meknès,1× Gift Box Signature,329,35,0
+WAHJ-4495,2026-07-10,LOCAL,delivered,Othmane Lahlou,0644 31 56 40,Casablanca,2× Luna Rossa — Prada,89,0,0
+WAHJ-4502,2026-07-11,ONLINE,delivered,Marouane Bennani,+212 692 98 72 16,Béni Mellal-Khénifra,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4503,2026-07-11,ONLINE,delivered,Hajar Bennani,0680 20 65 53,Tanger-Tétouan-Al Hoceïma,1× Pack EID,339,35,0
+WAHJ-4499,2026-07-11,LOCAL,delivered,Kenza Ouali,+212 635 68 65 34,Casablanca,2× Sauvage — Dior,89,0,0
+WAHJ-4501,2026-07-11,LOCAL,delivered,Lina Kettani,+212 696 52 91 87,Casablanca,1× Bleu de Chanel — Chanel,49,0,0
+WAHJ-4498,2026-07-11,LOCAL,delivered,Anas Kettani,+212 679 51 21 98,Bouskoura,1× La Vie Est Belle — Lancôme,49,0,0
+WAHJ-4500,2026-07-11,LOCAL,delivered,Sara Dahbi,0613 67 84 99,Bouskoura,1× Yara — Lattafa,49,0,0
+WAHJ-4508,2026-07-12,ONLINE,delivered,Hajar Lahlou,+212 691 12 35 16,Marrakech-Safi,1× Pack Découverte — Homme,189,35,0
+WAHJ-4507,2026-07-12,LOCAL,delivered,Marouane Dahbi,0691 36 52 47,Casablanca,1× Yara — Lattafa,49,0,0
+WAHJ-4509,2026-07-12,ONLINE,delivered,Yasmine El Amrani,+212 647 71 58 72,Rabat-Salé-Kénitra,1× Pack Découverte — Femme,189,35,0
+WAHJ-4504,2026-07-12,LOCAL,delivered,Nabil El Idrissi,+212 647 91 81 53,Salé,1× Yara — Lattafa; 1× Oud Wood — Tom Ford,108,0,0
+WAHJ-4505,2026-07-12,LOCAL,delivered,Ilias Bennani,0664 35 23 75,Casablanca,2× Le Male — Jean Paul Gaultier,89,0,0
+WAHJ-4510,2026-07-12,ONLINE,returned,Reda Benali,0661 29 98 91,Tanger-Tétouan-Al Hoceïma,1× Pack Parfait — Oud Royale,299,35,1
+WAHJ-4506,2026-07-12,LOCAL,delivered,Imane Sabri,+212 641 14 55 43,Salé,2× Sauvage — Dior; 2× Shalimar — Guerlain,178,0,0
+WAHJ-4512,2026-07-13,LOCAL,delivered,Othmane Bennani,0614 52 74 67,Casablanca,1× La Vie Est Belle — Lancôme,49,0,0
+WAHJ-4511,2026-07-13,LOCAL,delivered,Nisrine Zeroual,+212 642 54 63 38,Casablanca,1× Khamrah — Lattafa,49,0,0
+WAHJ-4513,2026-07-13,ONLINE,delivered,Sara Chraibi,+212 659 51 43 44,Souss-Massa,1× Pack Parfait — Méditerranée; 1× Pack Découverte — Femme,438,35,0
+WAHJ-4516,2026-07-14,LOCAL,delivered,Anas Moutawakil,+212 611 24 39 51,Rabat,1× Invictus — Paco Rabanne,49,0,0
+WAHJ-4517,2026-07-14,ONLINE,returned,Nisrine Kettani,0667 46 55 27,Casablanca-Settat,1× Pack Parfait — Elle; 1× Pack Couple — Lui & Elle,548,35,1
+WAHJ-4518,2026-07-14,ONLINE,delivered,Lina Lahlou,+212 658 26 33 50,Béni Mellal-Khénifra,1× Pack EID,339,35,0
+WAHJ-4515,2026-07-14,LOCAL,delivered,Marouane Dahbi,+212 615 69 93 86,Casablanca,1× Erba Pura — Xerjoff,49,0,0
+WAHJ-4514,2026-07-14,LOCAL,delivered,Zakaria Bennani,+212 696 59 23 79,Casablanca,2× Good Girl — Carolina Herrera,89,0,0
+WAHJ-4522,2026-07-15,ONLINE,delivered,Sara Moutawakil,0653 82 60 71,Casablanca-Settat,1× Pack Parfait — Oud Royale,299,35,0
+WAHJ-4521,2026-07-15,ONLINE,delivered,Sara Chraibi,+212 638 47 14 45,Casablanca-Settat,1× Pack Découverte — Femme,189,35,0
+WAHJ-4519,2026-07-15,LOCAL,delivered,Simo Berrada,0686 54 56 13,Casablanca,1× Sì — Giorgio Armani,49,0,0
+WAHJ-4520,2026-07-15,LOCAL,delivered,Hajar Kettani,+212 680 84 56 69,Salé,1× Sauvage — Dior; 1× Asad — Lattafa; 1× Baccarat Rouge 540 — MFK,157,0,0
+WAHJ-4524,2026-07-16,LOCAL,delivered,Bilal Moutawakil,+212 691 88 40 78,Salé,1× Bleu de Chanel — Chanel; 1× Eros — Versace,98,0,0
+WAHJ-4523,2026-07-16,LOCAL,delivered,Hamza Tahiri,0688 78 36 76,Casablanca,1× Oud Wood — Tom Ford,59,0,0
+WAHJ-4526,2026-07-16,LOCAL,delivered,Nabil Zeroual,+212 692 82 79 32,Casablanca,1× Asad — Lattafa,49,0,0
+WAHJ-4528,2026-07-16,ONLINE,returned,Nisrine Ouali,0669 93 90 66,Tanger-Tétouan-Al Hoceïma,1× Pack Parfait — Elle,269,35,1
+WAHJ-4527,2026-07-16,ONLINE,delivered,Douae Zeroual,+212 690 97 73 66,Tanger-Tétouan-Al Hoceïma,1× Pack Parfait — Oud Royale,299,35,0
+WAHJ-4525,2026-07-16,LOCAL,delivered,Hajar Dahbi,0636 94 44 99,Casablanca,2× La Vie Est Belle — Lancôme,89,0,0
+WAHJ-4529,2026-07-16,ONLINE,delivered,Adam Zeroual,0652 54 67 74,Rabat-Salé-Kénitra,1× Pack Parfait — Oud Royale,299,35,0
+WAHJ-4531,2026-07-17,LOCAL,delivered,Nabil Berrada,0665 13 45 53,Casablanca,1× Oud Wood — Tom Ford,59,0,0
+WAHJ-4535,2026-07-17,ONLINE,delivered,Karim Tahiri,0659 60 27 59,Marrakech-Safi,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4534,2026-07-17,LOCAL,delivered,Salma Benali,0654 41 53 26,Casablanca,1× Yara — Lattafa,49,0,0
+WAHJ-4533,2026-07-17,LOCAL,delivered,Simo El Idrissi,0631 58 32 78,Casablanca,1× Yara — Lattafa,49,0,0
+WAHJ-4530,2026-07-17,LOCAL,delivered,Bilal Moutawakil,+212 691 88 40 78,Salé,2× Sauvage — Dior,89,0,0
+WAHJ-4536,2026-07-17,ONLINE,delivered,Zineb Bennani,+212 641 60 78 20,Casablanca-Settat,1× Pack EID,339,35,0
+WAHJ-4532,2026-07-17,LOCAL,delivered,Othmane Lahlou,0647 84 54 60,Casablanca,2× La Vie Est Belle — Lancôme,89,0,0
+WAHJ-4541,2026-07-18,LOCAL,delivered,Rim Sabri,+212 693 14 50 78,Mohammedia,2× Khamrah — Lattafa; 2× Asad — Lattafa,178,0,0
+WAHJ-4540,2026-07-18,LOCAL,delivered,Lina Berrada,0611 87 53 21,Casablanca,1× Good Girl — Carolina Herrera,49,0,0
+WAHJ-4542,2026-07-18,ONLINE,delivered,Zineb Lahlou,+212 649 54 35 64,Souss-Massa,1× Pack Découverte — Homme,189,35,0
+WAHJ-4539,2026-07-18,LOCAL,returned,Mehdi Naciri,+212 627 98 58 11,Casablanca,1× Eros — Versace,49,0,1
+WAHJ-4537,2026-07-18,LOCAL,delivered,Hamza Dahbi,0638 38 60 23,Casablanca,1× Angel's Share — Kilian,59,0,0
+WAHJ-4543,2026-07-18,ONLINE,delivered,Malak Chraibi,0696 75 79 12,Fès-Meknès,1× Pack Découverte — Homme,189,35,0
+WAHJ-4538,2026-07-18,LOCAL,delivered,Ayoub El Amrani,+212 636 17 33 27,Casablanca,2× Yara — Lattafa,89,0,0
+WAHJ-4545,2026-07-19,LOCAL,delivered,Simo Naciri,+212 679 68 23 35,Casablanca,2× Sauvage — Dior,89,0,0
+WAHJ-4544,2026-07-19,LOCAL,delivered,Mehdi Benali,+212 684 72 56 38,Casablanca,1× Luna Rossa — Prada,49,0,0
+WAHJ-4546,2026-07-19,LOCAL,delivered,Youssef Sabri,+212 652 31 91 56,Rabat,2× Oud Wood — Tom Ford,109,0,0
+WAHJ-4548,2026-07-19,ONLINE,delivered,Reda Chraibi,0669 41 13 36,Casablanca-Settat,1× Pack EID,339,35,0
+WAHJ-4547,2026-07-19,ONLINE,delivered,Ayoub Zeroual,+212 648 31 51 68,Marrakech-Safi,1× Pack Découverte — Homme,189,35,0
+WAHJ-4550,2026-07-20,LOCAL,delivered,Bilal Moutawakil,+212 691 88 40 78,Salé,1× 9PM — Afnan,49,0,0
+WAHJ-4551,2026-07-20,LOCAL,delivered,Nada Kettani,0656 15 68 31,Casablanca,2× Oud Wood — Tom Ford,109,0,0
+WAHJ-4552,2026-07-20,ONLINE,delivered,Aya Benali,0652 33 98 32,Casablanca-Settat,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4549,2026-07-20,LOCAL,delivered,Sara Dahbi,0613 67 84 99,Bouskoura,1× Sì — Giorgio Armani,49,0,0
+WAHJ-4553,2026-07-20,ONLINE,delivered,Kenza Moutawakil,0656 28 48 23,Casablanca-Settat,1× Gift Box Signature,329,35,0
+WAHJ-4555,2026-07-21,LOCAL,delivered,Douae Naciri,+212 634 97 25 93,Casablanca,1× Yara — Lattafa,49,0,0
+WAHJ-4557,2026-07-21,ONLINE,delivered,Karim Tahiri,0659 60 27 59,Marrakech-Safi,1× Pack Couple — Lui & Elle; 1× Pack Découverte — Homme,468,35,0
+WAHJ-4554,2026-07-21,LOCAL,delivered,Mehdi Dahbi,+212 689 19 96 34,Casablanca,2× Oud Wood — Tom Ford,109,0,0
+WAHJ-4556,2026-07-21,LOCAL,delivered,Nisrine Chraibi,+212 633 71 42 26,Casablanca,1× La Vie Est Belle — Lancôme,49,0,0
+WAHJ-4558,2026-07-21,ONLINE,delivered,Douae Fassi,+212 679 25 51 69,Casablanca-Settat,1× Pack EID,339,35,0
+WAHJ-4562,2026-07-22,LOCAL,delivered,Zineb Naciri,+212 679 63 99 35,Casablanca,1× Libre — YSL; 1× Invictus — Paco Rabanne,98,0,0
+WAHJ-4561,2026-07-22,LOCAL,delivered,Sara Ouali,0658 37 81 86,Casablanca,1× Baccarat Rouge 540 — MFK,59,0,0
+WAHJ-4559,2026-07-22,LOCAL,delivered,Marouane Dahbi,+212 654 65 74 33,Casablanca,2× Le Male — Jean Paul Gaultier,89,0,0
+WAHJ-4560,2026-07-22,LOCAL,delivered,Salma El Amrani,+212 695 36 99 18,Salé,1× Ombre Nomade — Louis Vuitton,59,0,0
+WAHJ-4564,2026-07-22,ONLINE,delivered,Nisrine Lahlou,0624 66 82 86,Rabat-Salé-Kénitra,1× Pack Découverte — Femme,189,35,0
+WAHJ-4563,2026-07-22,ONLINE,delivered,Malak Sabri,0620 88 43 16,Rabat-Salé-Kénitra,1× Pack Découverte — Femme,189,35,0
+WAHJ-4568,2026-07-23,ONLINE,delivered,Imane Kettani,+212 650 57 50 60,Marrakech-Safi,1× Pack Découverte — Homme,189,35,0
+WAHJ-4565,2026-07-23,LOCAL,delivered,Adam Berrada,+212 676 65 37 62,Casablanca,1× Asad — Lattafa,49,0,0
+WAHJ-4566,2026-07-23,LOCAL,delivered,Othmane Lahlou,0644 31 56 40,Casablanca,1× Yara — Lattafa,49,0,0
+WAHJ-4569,2026-07-23,ONLINE,delivered,Adam El Idrissi,0658 25 58 26,Tanger-Tétouan-Al Hoceïma,1× Pack Parfait — Oud Royale,299,35,0
+WAHJ-4567,2026-07-23,LOCAL,delivered,Othmane Bennani,+212 661 21 20 54,Casablanca,2× Oud Wood — Tom Ford; 2× 1 Million — Paco Rabanne,198,0,0
+WAHJ-4573,2026-07-24,LOCAL,delivered,Aya Sabri,0630 51 69 15,Casablanca,2× Good Girl — Carolina Herrera,89,0,0
+WAHJ-4576,2026-07-24,ONLINE,delivered,Malak Zeroual,0676 62 36 62,Casablanca-Settat,1× Pack Parfait — Elle,269,35,0
+WAHJ-4572,2026-07-24,LOCAL,delivered,Douae Tahiri,0682 32 12 87,Casablanca,1× Baccarat Rouge 540 — MFK,59,0,0
+WAHJ-4571,2026-07-24,LOCAL,delivered,Othmane Benali,0628 23 29 42,Casablanca,1× Sauvage — Dior,49,0,0
+WAHJ-4574,2026-07-24,ONLINE,delivered,Nabil Lahlou,0698 13 47 92,Casablanca-Settat,1× Pack Découverte — Homme,189,35,0
+WAHJ-4570,2026-07-24,LOCAL,delivered,Marouane Zeroual,0631 58 39 78,Casablanca,1× 1 Million — Paco Rabanne,49,0,0
+WAHJ-4575,2026-07-24,ONLINE,delivered,Kenza Kettani,+212 695 67 29 43,Casablanca-Settat,1× Pack Parfait — Elle,269,35,0
+WAHJ-4584,2026-07-25,ONLINE,delivered,Rim Ouali,0637 72 86 89,Tanger-Tétouan-Al Hoceïma,1× Pack Découverte — Homme,189,35,0
+WAHJ-4580,2026-07-25,LOCAL,delivered,Othmane Bennani,+212 661 21 20 54,Casablanca,1× Baccarat Rouge 540 — MFK,59,0,0
+WAHJ-4582,2026-07-25,ONLINE,delivered,Nisrine Fassi,0680 82 13 93,Casablanca-Settat,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4577,2026-07-25,LOCAL,delivered,Imane El Idrissi,+212 668 32 80 60,Rabat,1× Sauvage — Dior,49,0,0
+WAHJ-4581,2026-07-25,LOCAL,delivered,Nabil Berrada,0665 13 45 53,Casablanca,2× Baccarat Rouge 540 — MFK,109,0,0
+WAHJ-4579,2026-07-25,LOCAL,delivered,Sara Lahlou,0618 18 27 78,Casablanca,2× Sauvage — Dior; 2× Khamrah — Lattafa,178,0,0
+WAHJ-4583,2026-07-25,ONLINE,delivered,Hamza Naciri,+212 642 12 96 67,Tanger-Tétouan-Al Hoceïma,1× Pack Parfait — Méditerranée; 1× Pack Parfait — Elle,518,35,0
+WAHJ-4578,2026-07-25,LOCAL,delivered,Douae Zeroual,0681 97 96 95,Casablanca,2× Good Girl — Carolina Herrera; 2× Baccarat Rouge 540 — MFK,198,0,0
+WAHJ-4587,2026-07-26,LOCAL,delivered,Karim Zeroual,+212 674 69 93 14,Casablanca,1× Asad — Lattafa,49,0,0
+WAHJ-4586,2026-07-26,LOCAL,delivered,Karim Kettani,+212 661 58 48 98,Casablanca,2× Aventus — Creed,109,0,0
+WAHJ-4589,2026-07-26,LOCAL,delivered,Mehdi Zeroual,+212 669 60 39 33,Mohammedia,1× Yara — Lattafa,49,0,0
+WAHJ-4591,2026-07-26,ONLINE,delivered,Simo Naciri,+212 638 88 21 59,Oriental,1× Pack Parfait — Oud Royale,299,35,0
+WAHJ-4585,2026-07-26,LOCAL,delivered,Imane Sabri,+212 641 14 55 43,Salé,1× Lost Cherry — Tom Ford,59,0,0
+WAHJ-4588,2026-07-26,LOCAL,delivered,Mehdi Tahiri,+212 670 35 89 81,Bouskoura,2× Angel's Share — Kilian; 2× Baccarat Rouge 540 — MFK,218,0,0
+WAHJ-4590,2026-07-26,ONLINE,delivered,Ilias Kettani,+212 635 89 83 43,Tanger-Tétouan-Al Hoceïma,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4592,2026-07-26,ONLINE,delivered,Hajar Moutawakil,0666 71 18 97,Casablanca-Settat,1× Pack Découverte — Femme,189,35,0
+WAHJ-4594,2026-07-27,LOCAL,delivered,Zineb Benali,0613 42 57 56,Casablanca,1× Asad — Lattafa,49,0,0
+WAHJ-4597,2026-07-27,ONLINE,delivered,Zineb Moutawakil,0641 80 48 36,Casablanca-Settat,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4593,2026-07-27,LOCAL,delivered,Anas Chraibi,0676 77 88 46,Rabat,1× Sì — Giorgio Armani; 1× 1 Million — Paco Rabanne,98,0,0
+WAHJ-4596,2026-07-27,ONLINE,delivered,Youssef Zeroual,0611 27 49 29,Souss-Massa,1× Gift Box Signature,329,35,0
+WAHJ-4595,2026-07-27,LOCAL,delivered,Douae Kettani,+212 699 96 33 10,Casablanca,1× La Vie Est Belle — Lancôme,49,0,0
+WAHJ-4601,2026-07-28,ONLINE,delivered,Adam Tahiri,+212 684 44 57 81,Tanger-Tétouan-Al Hoceïma,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4602,2026-07-28,ONLINE,delivered,Bilal El Amrani,0664 60 83 89,Tanger-Tétouan-Al Hoceïma,1× Pack Découverte — Femme,189,35,0
+WAHJ-4598,2026-07-28,LOCAL,delivered,Aya Sabri,+212 630 65 58 48,Casablanca,1× Angel's Share — Kilian,59,0,0
+WAHJ-4599,2026-07-28,LOCAL,delivered,Sara Dahbi,0613 67 84 99,Bouskoura,1× Bleu de Chanel — Chanel; 1× La Vie Est Belle — Lancôme,98,0,0
+WAHJ-4600,2026-07-28,LOCAL,delivered,Yasmine Lahlou,0644 86 69 12,Casablanca,2× Yara — Lattafa,89,0,0
+WAHJ-4608,2026-07-29,ONLINE,delivered,Adam Benali,0641 26 71 31,Oriental,1× Pack Parfait — Elle,269,35,0
+WAHJ-4605,2026-07-29,LOCAL,delivered,Lina Fassi,0658 52 92 54,Bouskoura,2× 1 Million — Paco Rabanne,89,0,0
+WAHJ-4603,2026-07-29,LOCAL,delivered,Anas Moutawakil,0684 78 37 95,Casablanca,2× Erba Pura — Xerjoff,89,0,0
+WAHJ-4606,2026-07-29,LOCAL,delivered,Adam Chraibi,0621 92 82 17,Casablanca,1× Hawas — Rasasi,49,0,0
+WAHJ-4604,2026-07-29,LOCAL,delivered,Imane Kettani,+212 681 57 69 22,Mohammedia,1× 1 Million — Paco Rabanne,49,0,0
+WAHJ-4607,2026-07-29,ONLINE,delivered,Simo Bennani,+212 698 77 95 12,Tanger-Tétouan-Al Hoceïma,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4610,2026-07-30,LOCAL,delivered,Nisrine Kettani,+212 620 23 16 86,Casablanca,2× Good Girl — Carolina Herrera; 2× Shalimar — Guerlain,178,0,0
+WAHJ-4612,2026-07-30,LOCAL,delivered,Zineb Benali,0613 42 57 56,Casablanca,1× Sauvage — Dior,49,0,0
+WAHJ-4614,2026-07-30,ONLINE,delivered,Nabil Chraibi,0639 58 66 54,Casablanca-Settat,1× Pack Parfait — Oud Royale; 1× Pack Parfait — Elle,568,35,0
+WAHJ-4611,2026-07-30,LOCAL,delivered,Nada Kettani,0656 15 68 31,Casablanca,2× Good Girl — Carolina Herrera,89,0,0
+WAHJ-4609,2026-07-30,LOCAL,delivered,Nabil El Amrani,+212 671 46 44 18,Casablanca,1× Khamrah — Lattafa,49,0,0
+WAHJ-4613,2026-07-30,ONLINE,delivered,Mehdi Lahlou,0691 66 68 95,Rabat-Salé-Kénitra,1× Pack Parfait — Elle,269,35,0
+WAHJ-4617,2026-07-31,LOCAL,delivered,Zineb Bennani,0658 41 76 74,Rabat,1× Sì — Giorgio Armani,49,0,0
+WAHJ-4618,2026-07-31,LOCAL,delivered,Ghita Ouali,+212 688 22 35 80,Casablanca,1× Sauvage — Dior; 1× Invictus — Paco Rabanne,98,0,0
+WAHJ-4621,2026-07-31,ONLINE,delivered,Nisrine Dahbi,0630 79 72 22,Tanger-Tétouan-Al Hoceïma,1× Pack Parfait — Oud Royale,299,35,0
+WAHJ-4619,2026-07-31,ONLINE,delivered,Bilal Bennani,+212 627 97 28 75,Marrakech-Safi,1× Pack Parfait — Elle; 1× Pack Découverte — Homme,458,35,0
+WAHJ-4616,2026-07-31,LOCAL,delivered,Ayoub Fassi,+212 697 44 25 69,Mohammedia,1× Good Girl — Carolina Herrera,49,0,0
+WAHJ-4615,2026-07-31,LOCAL,delivered,Nada Benali,+212 681 15 44 88,Casablanca,2× Libre — YSL; 2× La Vie Est Belle — Lancôme,178,0,0
+WAHJ-4620,2026-07-31,ONLINE,delivered,Lina Bennani,0655 71 61 71,Casablanca-Settat,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4627,2026-08-01,ONLINE,delivered,Nabil Benali,+212 658 71 17 36,Tanger-Tétouan-Al Hoceïma,1× Pack Parfait — Oud Royale,299,35,0
+WAHJ-4625,2026-08-01,LOCAL,delivered,Marouane Kettani,+212 669 58 89 92,Casablanca,1× Asad — Lattafa,49,0,0
+WAHJ-4628,2026-08-01,ONLINE,returned,Ghita Naciri,0619 54 37 14,Fès-Meknès,1× Pack EID,339,35,1
+WAHJ-4623,2026-08-01,LOCAL,delivered,Imane El Idrissi,+212 668 32 80 60,Rabat,1× Ombre Nomade — Louis Vuitton,59,0,0
+WAHJ-4624,2026-08-01,LOCAL,delivered,Nisrine Zeroual,+212 628 81 48 34,Bouskoura,2× Angel's Share — Kilian,109,0,0
+WAHJ-4622,2026-08-01,LOCAL,delivered,Anas Benali,0678 69 15 18,Casablanca,2× Amber Oud Gold — Al Haramain,89,0,0
+WAHJ-4626,2026-08-01,LOCAL,delivered,Hamza Chraibi,+212 684 44 89 92,Casablanca,1× Bleu de Chanel — Chanel,49,0,0
+WAHJ-4629,2026-08-01,ONLINE,delivered,Youssef El Amrani,+212 611 69 20 65,Marrakech-Safi,1× Gift Box Signature,329,35,0
+WAHJ-4632,2026-08-02,LOCAL,delivered,Youssef Chraibi,0617 99 55 30,Casablanca,2× Sauvage — Dior; 2× Le Male — Jean Paul Gaultier,178,0,0
+WAHJ-4631,2026-08-02,LOCAL,delivered,Simo Ouali,0641 68 31 42,Casablanca,1× Bleu de Chanel — Chanel,49,0,0
+WAHJ-4630,2026-08-02,LOCAL,delivered,Reda Naciri,+212 699 24 49 25,Casablanca,2× Asad — Lattafa; 2× Amber Oud Gold — Al Haramain,178,0,0
+WAHJ-4636,2026-08-02,ONLINE,delivered,Zineb Kettani,0670 94 95 34,Marrakech-Safi,1× Pack Parfait — Oud Royale,299,35,0
+WAHJ-4634,2026-08-02,LOCAL,delivered,Marouane Moutawakil,+212 697 41 54 81,Casablanca,2× Asad — Lattafa,89,0,0
+WAHJ-4633,2026-08-02,LOCAL,delivered,Mehdi Zeroual,+212 669 60 39 33,Mohammedia,1× Yara — Lattafa,49,0,0
+WAHJ-4635,2026-08-02,ONLINE,returned,Adam El Idrissi,+212 671 82 13 33,Fès-Meknès,1× Pack Parfait — Elle,269,35,1
+WAHJ-4639,2026-08-03,LOCAL,delivered,Nisrine El Idrissi,0681 71 89 38,Mohammedia,1× Invictus — Paco Rabanne,49,0,0
+WAHJ-4641,2026-08-03,ONLINE,delivered,Imane El Amrani,+212 612 80 20 89,Casablanca-Settat,1× Pack EID,339,35,0
+WAHJ-4640,2026-08-03,ONLINE,delivered,Nabil Lahlou,0698 13 47 92,Casablanca-Settat,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4637,2026-08-03,LOCAL,delivered,Marouane El Amrani,+212 622 90 47 38,Casablanca,1× Hawas — Rasasi,49,0,0
+WAHJ-4638,2026-08-03,LOCAL,delivered,Adam Bennani,+212 637 80 66 77,Casablanca,1× Invictus — Paco Rabanne,49,0,0
+WAHJ-4643,2026-08-04,LOCAL,delivered,Nisrine El Amrani,0626 88 59 28,Casablanca,2× Good Girl — Carolina Herrera,89,0,0
+WAHJ-4646,2026-08-04,ONLINE,delivered,Kenza Moutawakil,0669 21 36 33,Casablanca-Settat,1× Pack EID; 1× Pack Parfait — Méditerranée,588,35,0
+WAHJ-4645,2026-08-04,LOCAL,delivered,Lina Kettani,0633 83 86 73,Casablanca,1× Midnight Oud — Ard Al Zaafaran; 1× Erba Pura — Xerjoff,98,0,0
+WAHJ-4642,2026-08-04,LOCAL,delivered,Anas Benali,0678 69 15 18,Casablanca,2× Oud Wood — Tom Ford,109,0,0
+WAHJ-4644,2026-08-04,LOCAL,delivered,Imane Chraibi,0690 30 69 87,Casablanca,2× Erba Pura — Xerjoff,89,0,0
+WAHJ-4647,2026-08-04,ONLINE,delivered,Ghita Sabri,+212 655 90 44 56,Casablanca-Settat,1× Pack Découverte — Femme,189,35,0
+WAHJ-4648,2026-08-04,ONLINE,delivered,Ghita Chraibi,+212 619 67 60 55,Drâa-Tafilalet,1× Pack Découverte — Homme,189,35,0
+WAHJ-4652,2026-08-05,ONLINE,returned,Mehdi Lahlou,0691 66 68 95,Rabat-Salé-Kénitra,1× Pack Découverte — Homme,189,35,1
+WAHJ-4650,2026-08-05,LOCAL,delivered,Nisrine Kettani,+212 620 23 16 86,Casablanca,1× Erba Pura — Xerjoff; 1× Angel's Share — Kilian,108,0,0
+WAHJ-4651,2026-08-05,LOCAL,delivered,Malak Tahiri,+212 620 54 27 66,Mohammedia,1× Erba Pura — Xerjoff,49,0,0
+WAHJ-4649,2026-08-05,LOCAL,delivered,Karim Sabri,0633 18 84 51,Salé,2× Asad — Lattafa,89,0,0
+WAHJ-4653,2026-08-05,ONLINE,delivered,Nabil Dahbi,0685 74 42 16,Rabat-Salé-Kénitra,1× Pack Découverte — Femme; 1× Pack Couple — Lui & Elle,468,35,0
+WAHJ-4654,2026-08-05,ONLINE,delivered,Yasmine Zeroual,+212 636 79 56 98,Casablanca-Settat,1× Pack Découverte — Femme,189,35,0
+WAHJ-4657,2026-08-06,LOCAL,delivered,Douae Fassi,0637 67 58 47,Casablanca,2× Sì — Giorgio Armani,89,0,0
+WAHJ-4659,2026-08-06,ONLINE,delivered,Douae Chraibi,+212 698 20 19 82,Souss-Massa,1× Pack Parfait — Oud Royale,299,35,0
+WAHJ-4658,2026-08-06,ONLINE,delivered,Hamza El Amrani,+212 610 57 76 46,Fès-Meknès,1× Pack Découverte — Femme,189,35,0
+WAHJ-4656,2026-08-06,LOCAL,delivered,Nisrine El Idrissi,0681 71 89 38,Mohammedia,1× Aventus — Creed; 1× Baccarat Rouge 540 — MFK; 1× Bleu de Chanel — Chanel,167,0,0
+WAHJ-4655,2026-08-06,LOCAL,delivered,Malak Dahbi,+212 651 97 29 22,Casablanca,1× Bleu de Chanel — Chanel,49,0,0
+WAHJ-4664,2026-08-07,ONLINE,delivered,Nisrine Berrada,0618 25 68 26,Casablanca-Settat,1× Pack Parfait — Elle,269,35,0
+WAHJ-4665,2026-08-07,ONLINE,delivered,Rim Sabri,+212 610 64 74 55,Rabat-Salé-Kénitra,1× Gift Box Signature,329,35,0
+WAHJ-4661,2026-08-07,LOCAL,delivered,Othmane Kettani,+212 614 72 70 52,Casablanca,2× Hawas — Rasasi,89,0,0
+WAHJ-4660,2026-08-07,LOCAL,delivered,Othmane Benali,0628 23 29 42,Casablanca,1× Libre — YSL,49,0,0
+WAHJ-4662,2026-08-07,LOCAL,delivered,Adam Naciri,0650 94 95 23,Casablanca,1× Luna Rossa — Prada; 1× Yara — Lattafa,98,0,0
+WAHJ-4663,2026-08-07,LOCAL,delivered,Lina El Amrani,0692 33 13 15,Casablanca,1× Sauvage — Dior; 1× Le Male — Jean Paul Gaultier,98,0,0
+WAHJ-4666,2026-08-08,LOCAL,delivered,Sara Lahlou,0615 32 94 28,Casablanca,1× Le Male — Jean Paul Gaultier,49,0,0
+WAHJ-4667,2026-08-08,LOCAL,delivered,Ghita Benali,+212 641 57 79 23,Casablanca,1× Yara — Lattafa,49,0,0
+WAHJ-4671,2026-08-08,ONLINE,delivered,Adam El Amrani,0613 93 10 17,Fès-Meknès,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4670,2026-08-08,ONLINE,delivered,Aya El Amrani,0650 85 66 94,Marrakech-Safi,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4668,2026-08-08,LOCAL,delivered,Youssef Sabri,0684 35 17 51,Bouskoura,1× Hawas — Rasasi,49,0,0
+WAHJ-4669,2026-08-08,LOCAL,delivered,Adam Kettani,0694 75 52 54,Casablanca,2× Khamrah — Lattafa,89,0,0
+WAHJ-4674,2026-08-09,LOCAL,delivered,Ayoub El Amrani,+212 636 17 33 27,Casablanca,3× Aventus — Creed,108.99,0,0
+WAHJ-4677,2026-08-09,ONLINE,delivered,Zineb Sabri,0692 31 65 47,Casablanca-Settat,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4675,2026-08-09,LOCAL,delivered,Nabil Moutawakil,0685 10 39 60,Casablanca,2× Khamrah — Lattafa,89,0,0
+WAHJ-4676,2026-08-09,ONLINE,delivered,Imane Tahiri,+212 637 15 47 62,Marrakech-Safi,1× Pack Parfait — Elle,269,35,0
+WAHJ-4673,2026-08-09,LOCAL,delivered,Anas Kettani,+212 679 51 21 98,Bouskoura,2× Sauvage — Dior,89,0,0
+WAHJ-4672,2026-08-09,LOCAL,delivered,Douae Sabri,+212 660 50 75 48,Rabat,1× Erba Pura — Xerjoff,49,0,0
+WAHJ-4678,2026-08-10,LOCAL,delivered,Anas Moutawakil,+212 611 24 39 51,Rabat,1× Baccarat Rouge 540 — MFK,59,0,0
+WAHJ-4681,2026-08-10,ONLINE,delivered,Yasmine Tahiri,+212 640 35 41 23,Casablanca-Settat,1× Gift Box Signature; 1× Pack Parfait — Elle,598,35,0
+WAHJ-4682,2026-08-10,ONLINE,delivered,Ghita Chraibi,+212 619 67 60 55,Drâa-Tafilalet,1× Pack Parfait — Elle,269,35,0
+WAHJ-4680,2026-08-10,LOCAL,delivered,Karim Kettani,+212 661 58 48 98,Casablanca,2× Yara — Lattafa,89,0,0
+WAHJ-4679,2026-08-10,LOCAL,delivered,Salma Berrada,0645 12 55 47,Salé,1× Asad — Lattafa; 1× Oud Wood — Tom Ford,108,0,0
+WAHJ-4685,2026-08-11,LOCAL,delivered,Rim Sabri,0622 18 82 34,Rabat,1× Yara — Lattafa,49,0,0
+WAHJ-4683,2026-08-11,LOCAL,delivered,Kenza Ouali,+212 635 68 65 34,Casablanca,2× Baccarat Rouge 540 — MFK,109,0,0
+WAHJ-4684,2026-08-11,LOCAL,delivered,Simo Bennani,+212 667 98 11 13,Casablanca,1× Sì — Giorgio Armani; 1× Ombre Nomade — Louis Vuitton,108,0,0
+WAHJ-4686,2026-08-11,ONLINE,delivered,Ayoub Bennani,+212 644 16 77 44,Rabat-Salé-Kénitra,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4687,2026-08-11,ONLINE,delivered,Reda Benali,0661 29 98 91,Tanger-Tétouan-Al Hoceïma,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4693,2026-08-12,ONLINE,delivered,Ghita Kettani,+212 645 29 38 85,Rabat-Salé-Kénitra,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4692,2026-08-12,ONLINE,delivered,Anas Kettani,+212 632 18 44 95,Casablanca-Settat,1× Pack Découverte — Homme,189,35,0
+WAHJ-4691,2026-08-12,LOCAL,delivered,Ghita El Amrani,+212 623 57 75 31,Salé,2× Sauvage — Dior,89,0,0
+WAHJ-4690,2026-08-12,LOCAL,delivered,Lina Kettani,+212 696 52 91 87,Casablanca,2× Erba Pura — Xerjoff,89,0,0
+WAHJ-4689,2026-08-12,LOCAL,delivered,Othmane Benali,0628 23 29 42,Casablanca,1× La Vie Est Belle — Lancôme; 1× Baccarat Rouge 540 — MFK,108,0,0
+WAHJ-4688,2026-08-12,LOCAL,delivered,Salma Berrada,0618 38 66 47,Casablanca,2× Sì — Giorgio Armani; 2× Oud Wood — Tom Ford,198,0,0
+WAHJ-4696,2026-08-13,LOCAL,cancelled,Simo Bennani,+212 667 98 11 13,Casablanca,1× La Vie Est Belle — Lancôme,49,0,0
+WAHJ-4700,2026-08-13,ONLINE,delivered,Ayoub Kettani,0690 97 47 74,Rabat-Salé-Kénitra,1× Pack Parfait — Oud Royale; 1× Pack Parfait — Oud Royale,598,35,0
+WAHJ-4699,2026-08-13,ONLINE,returned,Nabil Tahiri,+212 689 15 92 94,Rabat-Salé-Kénitra,1× Pack Parfait — Elle,269,35,1
+WAHJ-4694,2026-08-13,LOCAL,delivered,Mehdi Lahlou,+212 661 44 25 10,Casablanca,1× Baccarat Rouge 540 — MFK,59,0,0
+WAHJ-4697,2026-08-13,LOCAL,delivered,Reda Fassi,0625 18 95 32,Mohammedia,2× Ombre Nomade — Louis Vuitton,109,0,0
+WAHJ-4698,2026-08-13,ONLINE,delivered,Mehdi Kettani,+212 655 77 65 35,Rabat-Salé-Kénitra,1× Pack Parfait — Elle,269,35,0
+WAHJ-4695,2026-08-13,LOCAL,delivered,Nada Berrada,0649 60 10 43,Casablanca,2× Khamrah — Lattafa,89,0,0
+WAHJ-4706,2026-08-14,ONLINE,delivered,Kenza Fassi,+212 624 46 41 17,Casablanca-Settat,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4701,2026-08-14,LOCAL,delivered,Lina El Amrani,0692 33 13 15,Casablanca,1× Asad — Lattafa,49,0,0
+WAHJ-4707,2026-08-14,ONLINE,returned,Yasmine Chraibi,0646 74 14 36,Casablanca-Settat,1× Pack Couple — Lui & Elle,279,35,1
+WAHJ-4704,2026-08-14,LOCAL,delivered,Anas El Idrissi,0611 24 14 65,Casablanca,1× Asad — Lattafa,49,0,0
+WAHJ-4705,2026-08-14,LOCAL,delivered,Zineb Naciri,+212 679 63 99 35,Casablanca,1× Invictus — Paco Rabanne,49,0,0
+WAHJ-4708,2026-08-14,ONLINE,delivered,Douae Berrada,0611 61 68 94,Casablanca-Settat,1× Pack Parfait — Elle,269,35,0
+WAHJ-4702,2026-08-14,LOCAL,delivered,Sara Kettani,+212 620 59 57 76,Casablanca,1× Erba Pura — Xerjoff; 1× Yara — Lattafa,98,0,0
+WAHJ-4703,2026-08-14,LOCAL,delivered,Nabil Fassi,0671 58 81 27,Rabat,2× Yara — Lattafa,89,0,0
+WAHJ-4715,2026-08-15,ONLINE,delivered,Ayoub Naciri,0665 56 78 73,Marrakech-Safi,1× Pack Parfait — Elle,269,35,0
+WAHJ-4714,2026-08-15,LOCAL,delivered,Youssef Chraibi,0617 99 55 30,Casablanca,2× Hawas — Rasasi; 2× Sì — Giorgio Armani,178,0,0
+WAHJ-4717,2026-08-15,ONLINE,delivered,Marouane Berrada,+212 651 62 47 81,Casablanca-Settat,1× Pack Découverte — Femme; 1× Pack Parfait — Elle,458,35,0
+WAHJ-4712,2026-08-15,LOCAL,delivered,Lina Kettani,+212 696 52 91 87,Casablanca,2× Yara — Lattafa,89,0,0
+WAHJ-4710,2026-08-15,LOCAL,delivered,Nabil Lahlou,0648 18 93 71,Casablanca,2× Eros — Versace; 2× Luna Rossa — Prada,178,0,0
+WAHJ-4713,2026-08-15,LOCAL,delivered,Kenza Ouali,+212 635 68 65 34,Casablanca,1× Baccarat Rouge 540 — MFK; 1× 9PM — Afnan; 1× La Vie Est Belle — Lancôme,157,0,0
+WAHJ-4709,2026-08-15,LOCAL,delivered,Othmane Benali,0623 74 51 69,Casablanca,2× Sauvage — Dior,89,0,0
+WAHJ-4716,2026-08-15,ONLINE,returned,Anas Lahlou,+212 658 84 11 18,Tanger-Tétouan-Al Hoceïma,1× Pack Parfait — Oud Royale,299,35,1
+WAHJ-4711,2026-08-15,LOCAL,delivered,Salma Ouali,0637 71 86 42,Casablanca,2× Aventus — Creed,109,0,0
+WAHJ-4718,2026-08-16,LOCAL,delivered,Simo Berrada,+212 662 16 79 59,Casablanca,2× Yara — Lattafa,89,0,0
+WAHJ-4721,2026-08-16,LOCAL,delivered,Adam Bennani,+212 637 80 66 77,Casablanca,2× Ombre Nomade — Louis Vuitton,109,0,0
+WAHJ-4719,2026-08-16,LOCAL,delivered,Aya Moutawakil,0680 36 49 94,Casablanca,1× Bleu de Chanel — Chanel,49,0,0
+WAHJ-4724,2026-08-16,ONLINE,delivered,Karim Tahiri,0659 60 27 59,Marrakech-Safi,1× Gift Box Signature,329,35,0
+WAHJ-4722,2026-08-16,ONLINE,delivered,Aya Berrada,0618 70 38 18,Béni Mellal-Khénifra,1× Pack Parfait — Méditerranée; 1× Pack Parfait — Méditerranée,498,35,0
+WAHJ-4720,2026-08-16,LOCAL,delivered,Anas Chraibi,0655 45 20 79,Casablanca,1× Ombre Nomade — Louis Vuitton,59,0,0
+WAHJ-4723,2026-08-16,ONLINE,delivered,Youssef Tahiri,+212 617 32 67 19,Rabat-Salé-Kénitra,1× Pack Découverte — Homme,189,35,0
+WAHJ-4729,2026-08-17,ONLINE,returned,Zakaria Fassi,+212 610 48 54 70,Tanger-Tétouan-Al Hoceïma,1× Pack Découverte — Homme,189,35,1
+WAHJ-4725,2026-08-17,LOCAL,delivered,Nabil Kettani,0630 20 84 51,Mohammedia,2× Ombre Nomade — Louis Vuitton,109,0,0
+WAHJ-4728,2026-08-17,ONLINE,delivered,Douae Sabri,0644 61 90 28,Marrakech-Safi,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4726,2026-08-17,LOCAL,delivered,Othmane Naciri,+212 650 64 56 21,Bouskoura,1× Angel's Share — Kilian,59,0,0
+WAHJ-4727,2026-08-17,LOCAL,delivered,Imane Chraibi,0690 30 69 87,Casablanca,1× Bleu de Chanel — Chanel,49,0,0
+WAHJ-4734,2026-08-18,ONLINE,delivered,Adam Berrada,0616 95 91 84,Marrakech-Safi,1× Gift Box Signature,329,35,0
+WAHJ-4732,2026-08-18,LOCAL,delivered,Sara Dahbi,0613 67 84 99,Bouskoura,1× La Vie Est Belle — Lancôme,49,0,0
+WAHJ-4733,2026-08-18,ONLINE,delivered,Douae Zeroual,0693 54 94 40,Casablanca-Settat,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4730,2026-08-18,LOCAL,delivered,Othmane Benali,0628 23 29 42,Casablanca,2× Sauvage — Dior,89,0,0
+WAHJ-4731,2026-08-18,LOCAL,delivered,Simo Bennani,+212 667 98 11 13,Casablanca,2× La Vie Est Belle — Lancôme,89,0,0
+WAHJ-4735,2026-08-19,LOCAL,delivered,Hamza Dahbi,+212 696 36 90 40,Rabat,1× Erba Pura — Xerjoff,49,0,0
+WAHJ-4736,2026-08-19,LOCAL,delivered,Simo Bennani,+212 667 98 11 13,Casablanca,2× Libre — YSL,89,0,0
+WAHJ-4739,2026-08-19,ONLINE,delivered,Marouane El Idrissi,0672 32 67 42,Laâyoune-Sakia El Hamra,1× Pack Découverte — Homme,189,35,0
+WAHJ-4738,2026-08-19,ONLINE,delivered,Hamza Berrada,0675 98 65 86,Rabat-Salé-Kénitra,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4737,2026-08-19,LOCAL,delivered,Rim Lahlou,+212 611 41 90 73,Casablanca,1× Hawas — Rasasi,49,0,0
+WAHJ-4741,2026-08-20,LOCAL,delivered,Ilias Tahiri,+212 642 54 71 81,Casablanca,1× Bleu de Chanel — Chanel,49,0,0
+WAHJ-4742,2026-08-20,LOCAL,delivered,Lina Kettani,+212 696 52 91 87,Casablanca,1× Yara — Lattafa; 1× La Vie Est Belle — Lancôme; 1× 1 Million — Paco Rabanne,147,0,0
+WAHJ-4743,2026-08-20,LOCAL,delivered,Aya Chraibi,+212 631 78 84 26,Casablanca,1× Erba Pura — Xerjoff,49,0,0
+WAHJ-4745,2026-08-20,ONLINE,delivered,Reda Berrada,+212 610 52 22 84,Tanger-Tétouan-Al Hoceïma,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4744,2026-08-20,ONLINE,returned,Simo Zeroual,0612 54 16 59,Tanger-Tétouan-Al Hoceïma,1× Pack Parfait — Elle,269,35,1
+WAHJ-4740,2026-08-20,LOCAL,delivered,Ghita Benali,+212 641 57 79 23,Casablanca,1× Sauvage — Dior,49,0,0
+WAHJ-4746,2026-08-20,ONLINE,delivered,Hajar Bennani,0680 20 65 53,Tanger-Tétouan-Al Hoceïma,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4749,2026-08-21,LOCAL,delivered,Rim El Idrissi,0682 95 13 21,Casablanca,2× Sauvage — Dior,89,0,0
+WAHJ-4751,2026-08-21,ONLINE,delivered,Salma Bennani,0622 57 12 97,Marrakech-Safi,1× Pack Découverte — Femme,189,35,0
+WAHJ-4750,2026-08-21,LOCAL,delivered,Reda Fassi,0689 26 17 94,Mohammedia,1× Eros — Versace; 1× Good Girl — Carolina Herrera,98,0,0
+WAHJ-4747,2026-08-21,LOCAL,delivered,Salma Moutawakil,0694 57 61 56,Casablanca,1× Khamrah — Lattafa,49,0,0
+WAHJ-4748,2026-08-21,LOCAL,delivered,Marouane Moutawakil,+212 623 77 10 66,Salé,1× Angel's Share — Kilian; 1× Erba Pura — Xerjoff; 1× Sauvage — Dior,157,0,0
+WAHJ-4752,2026-08-21,ONLINE,delivered,Nisrine Ouali,0669 93 90 66,Tanger-Tétouan-Al Hoceïma,1× Pack Parfait — Elle,269,35,0
+WAHJ-4757,2026-08-22,LOCAL,delivered,Zineb Naciri,+212 679 63 99 35,Casablanca,1× Libre — YSL; 1× Erba Pura — Xerjoff,98,0,0
+WAHJ-4755,2026-08-22,LOCAL,delivered,Adam Lahlou,+212 612 32 27 13,Casablanca,2× Erba Pura — Xerjoff,89,0,0
+WAHJ-4759,2026-08-22,ONLINE,returned,Lina Chraibi,0630 82 92 72,Rabat-Salé-Kénitra,1× Pack Parfait — Elle,269,35,1
+WAHJ-4758,2026-08-22,LOCAL,delivered,Aya Zeroual,+212 671 13 61 34,Casablanca,1× Yara — Lattafa; 1× Hawas — Rasasi,98,0,0
+WAHJ-4756,2026-08-22,LOCAL,delivered,Nada Benali,+212 681 15 44 88,Casablanca,1× Good Girl — Carolina Herrera,49,0,0
+WAHJ-4754,2026-08-22,LOCAL,delivered,Aya Moutawakil,+212 630 88 61 68,Bouskoura,1× Baccarat Rouge 540 — MFK,59,0,0
+WAHJ-4753,2026-08-22,LOCAL,delivered,Zakaria Benali,0619 39 90 18,Casablanca,1× Khamrah — Lattafa,49,0,0
+WAHJ-4761,2026-08-22,ONLINE,delivered,Ghita Zeroual,+212 673 74 87 29,Rabat-Salé-Kénitra,1× Gift Box Signature,329,35,0
+WAHJ-4760,2026-08-22,ONLINE,delivered,Hajar Bennani,0617 11 29 35,Marrakech-Safi,1× Pack Découverte — Homme,189,35,0
+WAHJ-4766,2026-08-23,ONLINE,delivered,Yasmine Moutawakil,0681 90 53 64,Casablanca-Settat,1× Pack EID,339,35,0
+WAHJ-4765,2026-08-23,LOCAL,delivered,Imane Chraibi,0690 30 69 87,Casablanca,2× Le Male — Jean Paul Gaultier; 2× Invictus — Paco Rabanne,178,0,0
+WAHJ-4762,2026-08-23,LOCAL,delivered,Adam Lahlou,0643 20 90 37,Casablanca,2× Le Male — Jean Paul Gaultier,89,0,0
+WAHJ-4767,2026-08-23,ONLINE,delivered,Nada Tahiri,0676 37 53 20,Casablanca-Settat,1× Pack Parfait — Oud Royale,299,35,0
+WAHJ-4764,2026-08-23,LOCAL,delivered,Youssef Zeroual,0678 54 57 11,Casablanca,2× Good Girl — Carolina Herrera; 2× Bleu de Chanel — Chanel,178,0,0
+WAHJ-4763,2026-08-23,LOCAL,delivered,Youssef El Amrani,0645 45 46 24,Casablanca,1× Le Male — Jean Paul Gaultier,49,0,0
+WAHJ-4768,2026-08-23,ONLINE,returned,Ghita Benali,+212 686 70 85 63,Rabat-Salé-Kénitra,1× Pack Découverte — Femme,189,35,1
+WAHJ-4771,2026-08-24,LOCAL,delivered,Zineb Naciri,+212 679 63 99 35,Casablanca,2× Libre — YSL; 2× Baccarat Rouge 540 — MFK,198,0,0
+WAHJ-4772,2026-08-24,ONLINE,delivered,Mehdi Lahlou,0691 66 68 95,Rabat-Salé-Kénitra,1× Pack Parfait — Oud Royale,299,35,0
+WAHJ-4770,2026-08-24,LOCAL,delivered,Rim Naciri,0614 17 12 81,Casablanca,2× Sauvage — Dior,89,0,0
+WAHJ-4773,2026-08-24,ONLINE,delivered,Nabil Chraibi,0639 58 66 54,Casablanca-Settat,1× Pack EID,339,35,0
+WAHJ-4769,2026-08-24,LOCAL,delivered,Nada Sabri,0649 13 67 15,Bouskoura,2× Sì — Giorgio Armani,89,0,0
+WAHJ-4774,2026-08-25,LOCAL,delivered,Imane El Idrissi,+212 668 32 80 60,Rabat,1× Oud Wood — Tom Ford; 1× Ombre Nomade — Louis Vuitton,118,0,0
+WAHJ-4775,2026-08-25,LOCAL,delivered,Salma Berrada,0618 38 66 47,Casablanca,1× Good Girl — Carolina Herrera,49,0,0
+WAHJ-4776,2026-08-25,LOCAL,delivered,Kenza Ouali,+212 697 27 70 92,Salé,2× Erba Pura — Xerjoff,89,0,0
+WAHJ-4778,2026-08-25,ONLINE,delivered,Reda Benali,0661 29 98 91,Tanger-Tétouan-Al Hoceïma,1× Pack Découverte — Femme,189,35,0
+WAHJ-4777,2026-08-25,ONLINE,delivered,Aya Dahbi,0652 75 15 91,Béni Mellal-Khénifra,1× Pack Parfait — Elle,269,35,0
+WAHJ-4781,2026-08-26,LOCAL,delivered,Rim Lahlou,0628 17 29 72,Casablanca,1× Asad — Lattafa,49,0,0
+WAHJ-4783,2026-08-26,ONLINE,delivered,Ilias Tahiri,+212 634 99 39 33,Rabat-Salé-Kénitra,1× Pack Découverte — Homme,189,35,0
+WAHJ-4779,2026-08-26,LOCAL,delivered,Hajar Tahiri,0623 82 50 40,Casablanca,1× Hacivat — Nishane; 1× Sauvage — Dior,108,0,0
+WAHJ-4785,2026-08-26,ONLINE,delivered,Karim Naciri,+212 676 45 89 91,Casablanca-Settat,1× Pack EID,339,35,0
+WAHJ-4784,2026-08-26,ONLINE,delivered,Sara Moutawakil,0653 82 60 71,Casablanca-Settat,1× Pack Parfait — Elle; 1× Pack Parfait — Oud Royale,568,35,0
+WAHJ-4780,2026-08-26,LOCAL,delivered,Aya Sabri,+212 630 65 58 48,Casablanca,1× Erba Pura — Xerjoff,49,0,0
+WAHJ-4782,2026-08-26,LOCAL,delivered,Youssef Berrada,0666 82 94 16,Casablanca,1× La Vie Est Belle — Lancôme,49,0,0
+WAHJ-4790,2026-08-27,ONLINE,returned,Ayoub Zeroual,+212 652 70 75 54,Rabat-Salé-Kénitra,1× Pack Parfait — Méditerranée,249,35,1
+WAHJ-4789,2026-08-27,LOCAL,delivered,Youssef Berrada,0666 82 94 16,Casablanca,2× La Vie Est Belle — Lancôme,89,0,0
+WAHJ-4792,2026-08-27,ONLINE,delivered,Imane El Amrani,+212 628 74 41 68,Tanger-Tétouan-Al Hoceïma,1× Pack Découverte — Homme,189,35,0
+WAHJ-4786,2026-08-27,LOCAL,delivered,Nisrine Chraibi,0639 22 64 63,Casablanca,2× Aventus — Creed,109,0,0
+WAHJ-4791,2026-08-27,ONLINE,delivered,Aya Berrada,0681 70 57 48,Casablanca-Settat,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4787,2026-08-27,LOCAL,delivered,Nabil Benali,0636 28 38 67,Casablanca,2× Good Girl — Carolina Herrera,89,0,0
+WAHJ-4788,2026-08-27,LOCAL,delivered,Aya Moutawakil,0637 74 69 34,Casablanca,1× 9PM — Afnan,49,0,0
+WAHJ-4794,2026-08-28,LOCAL,delivered,Zakaria Dahbi,+212 692 74 34 80,Casablanca,1× Eros — Versace,49,0,0
+WAHJ-4798,2026-08-28,ONLINE,delivered,Douae Fassi,+212 679 25 51 69,Casablanca-Settat,1× Pack Couple — Lui & Elle; 1× Pack Parfait — Oud Royale,578,35,0
+WAHJ-4796,2026-08-28,LOCAL,delivered,Lina Fassi,0658 52 92 54,Bouskoura,1× Khamrah — Lattafa,49,0,0
+WAHJ-4797,2026-08-28,ONLINE,delivered,Karim Berrada,+212 646 73 70 12,Rabat-Salé-Kénitra,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4795,2026-08-28,LOCAL,delivered,Hajar Naciri,+212 670 79 82 19,Casablanca,2× Baccarat Rouge 540 — MFK; 2× Bleu de Chanel — Chanel,198,0,0
+WAHJ-4793,2026-08-28,LOCAL,delivered,Anas El Amrani,0623 26 61 82,Casablanca,1× 1 Million — Paco Rabanne; 1× La Vie Est Belle — Lancôme,98,0,0
+WAHJ-4799,2026-08-28,ONLINE,delivered,Douae Zeroual,0693 54 94 40,Casablanca-Settat,1× Gift Box Signature,329,35,0
+WAHJ-4801,2026-08-29,LOCAL,delivered,Adam Bennani,+212 637 80 66 77,Casablanca,1× Yara — Lattafa,49,0,0
+WAHJ-4804,2026-08-29,LOCAL,delivered,Bilal Naciri,0643 65 99 28,Casablanca,1× Sauvage — Dior,49,0,0
+WAHJ-4806,2026-08-29,ONLINE,delivered,Anas Chraibi,+212 668 25 69 52,Marrakech-Safi,1× Pack Découverte — Homme,189,35,0
+WAHJ-4807,2026-08-29,ONLINE,returned,Salma Berrada,0697 97 15 85,Marrakech-Safi,1× Pack Parfait — Elle,269,35,1
+WAHJ-4802,2026-08-29,LOCAL,delivered,Nada Sabri,0649 13 67 15,Bouskoura,1× Yara — Lattafa,49,0,0
+WAHJ-4800,2026-08-29,LOCAL,delivered,Nabil Ouali,0636 77 49 19,Casablanca,2× Baccarat Rouge 540 — MFK,109,0,0
+WAHJ-4803,2026-08-29,LOCAL,delivered,Ilias Chraibi,0667 58 11 88,Salé,1× Bleu de Chanel — Chanel; 1× Sauvage — Dior,98,0,0
+WAHJ-4805,2026-08-29,ONLINE,delivered,Youssef El Amrani,+212 611 69 20 65,Marrakech-Safi,1× Pack Parfait — Elle,269,35,0
+WAHJ-4808,2026-08-29,ONLINE,delivered,Zakaria Benali,+212 625 14 16 36,Casablanca-Settat,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4809,2026-08-30,LOCAL,delivered,Kenza Moutawakil,0691 83 83 72,Casablanca,1× Bleu de Chanel — Chanel,49,0,0
+WAHJ-4812,2026-08-30,ONLINE,delivered,Zakaria Fassi,+212 610 48 54 70,Tanger-Tétouan-Al Hoceïma,1× Pack Parfait — Oud Royale,299,35,0
+WAHJ-4813,2026-08-30,ONLINE,delivered,Marouane El Amrani,+212 641 23 59 81,Casablanca-Settat,1× Pack Parfait — Oud Royale; 1× Pack Découverte — Femme,488,35,0
+WAHJ-4810,2026-08-30,LOCAL,delivered,Nisrine Fassi,0635 34 97 58,Casablanca,1× Asad — Lattafa,49,0,0
+WAHJ-4811,2026-08-30,LOCAL,delivered,Karim Naciri,0647 58 14 45,Mohammedia,1× Baccarat Rouge 540 — MFK; 1× La Vie Est Belle — Lancôme,108,0,0
+WAHJ-4815,2026-08-31,LOCAL,delivered,Sara Berrada,0694 45 28 98,Casablanca,2× 1 Million — Paco Rabanne; 2× Sì — Giorgio Armani,178,0,0
+WAHJ-4819,2026-08-31,ONLINE,delivered,Bilal Benali,0658 10 48 14,Marrakech-Safi,1× Pack Parfait — Elle,269,35,0
+WAHJ-4818,2026-08-31,ONLINE,delivered,Anas Sabri,+212 638 98 90 50,Casablanca-Settat,1× Pack Parfait — Elle,269,35,0
+WAHJ-4816,2026-08-31,LOCAL,delivered,Othmane El Idrissi,+212 623 28 12 19,Casablanca,1× 1 Million — Paco Rabanne; 1× Oud Wood — Tom Ford,108,0,0
+WAHJ-4814,2026-08-31,LOCAL,delivered,Simo Fassi,+212 690 57 36 64,Mohammedia,1× Invictus — Paco Rabanne,49,0,0
+WAHJ-4817,2026-08-31,ONLINE,delivered,Othmane Berrada,+212 676 96 52 89,Casablanca-Settat,1× Pack Découverte — Femme,189,35,0
+WAHJ-4823,2026-09-01,ONLINE,delivered,Hamza Naciri,+212 642 12 96 67,Tanger-Tétouan-Al Hoceïma,1× Pack Découverte — Homme,189,35,0
+WAHJ-4821,2026-09-01,LOCAL,delivered,Nisrine Chraibi,+212 653 91 69 30,Mohammedia,1× 9PM — Afnan,49,0,0
+WAHJ-4824,2026-09-01,ONLINE,delivered,Nisrine Naciri,0676 79 14 39,Rabat-Salé-Kénitra,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4820,2026-09-01,LOCAL,delivered,Kenza Ouali,+212 635 68 65 34,Casablanca,2× Hawas — Rasasi,89,0,0
+WAHJ-4822,2026-09-01,LOCAL,delivered,Sara Bennani,0663 55 53 57,Rabat,1× Bleu de Chanel — Chanel,49,0,0
+WAHJ-4825,2026-09-02,LOCAL,delivered,Aya Moutawakil,0680 36 49 94,Casablanca,1× Midnight Oud — Ard Al Zaafaran,49,0,0
+WAHJ-4831,2026-09-02,ONLINE,returned,Yasmine Bennani,0618 61 41 47,Fès-Meknès,1× Pack Découverte — Femme,189,35,1
+WAHJ-4827,2026-09-02,LOCAL,delivered,Salma El Idrissi,+212 649 77 33 41,Casablanca,2× Sauvage — Dior,89,0,0
+WAHJ-4830,2026-09-02,ONLINE,delivered,Simo Fassi,+212 624 22 12 58,Tanger-Tétouan-Al Hoceïma,1× Gift Box Signature,329,35,0
+WAHJ-4828,2026-09-02,LOCAL,delivered,Lina Fassi,0658 52 92 54,Bouskoura,2× Asad — Lattafa,89,0,0
+WAHJ-4826,2026-09-02,LOCAL,delivered,Imane Sabri,+212 641 14 55 43,Salé,2× Midnight Oud — Ard Al Zaafaran,89,0,0
+WAHJ-4829,2026-09-02,ONLINE,returned,Lina Moutawakil,0694 30 33 12,Rabat-Salé-Kénitra,1× Pack Parfait — Oud Royale,299,35,1
+WAHJ-4833,2026-09-03,LOCAL,returned,Ghita Chraibi,+212 679 55 10 88,Casablanca,2× Luna Rossa — Prada,89,0,1
+WAHJ-4835,2026-09-03,ONLINE,delivered,Bilal El Idrissi,+212 623 47 78 91,Fès-Meknès,1× Pack Parfait — Elle,269,35,0
+WAHJ-4832,2026-09-03,LOCAL,delivered,Zineb Zeroual,0679 68 78 99,Bouskoura,2× Khamrah — Lattafa,89,0,0
+WAHJ-4836,2026-09-03,ONLINE,delivered,Ayoub Chraibi,0626 78 63 95,Casablanca-Settat,1× Pack Découverte — Femme,189,35,0
+WAHJ-4837,2026-09-03,ONLINE,delivered,Mehdi Fassi,+212 656 18 92 11,Rabat-Salé-Kénitra,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4834,2026-09-03,LOCAL,delivered,Hamza Chraibi,+212 684 44 89 92,Casablanca,1× Asad — Lattafa,49,0,0
+WAHJ-4839,2026-09-04,LOCAL,delivered,Aya Kettani,0664 17 97 39,Casablanca,2× Baccarat Rouge 540 — MFK; 2× Lost Cherry — Tom Ford,218,0,0
+WAHJ-4843,2026-09-04,ONLINE,cancelled,Aya Naciri,+212 690 21 36 89,Casablanca-Settat,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4840,2026-09-04,LOCAL,delivered,Nisrine Moutawakil,0621 68 26 84,Rabat,1× La Vie Est Belle — Lancôme; 1× Bleu de Chanel — Chanel; 1× Hawas — Rasasi,147,0,0
+WAHJ-4838,2026-09-04,LOCAL,delivered,Imane Benali,+212 644 58 61 75,Rabat,1× Le Male — Jean Paul Gaultier,49,0,0
+WAHJ-4842,2026-09-04,LOCAL,delivered,Anas Benali,0678 69 15 18,Casablanca,1× Asad — Lattafa,49,0,0
+WAHJ-4841,2026-09-04,LOCAL,delivered,Imane Sabri,+212 641 14 55 43,Salé,1× Hawas — Rasasi,49,0,0
+WAHJ-4844,2026-09-04,ONLINE,delivered,Hamza Benali,+212 635 46 65 91,Rabat-Salé-Kénitra,1× Pack Découverte — Femme,189,35,0
+WAHJ-4848,2026-09-05,LOCAL,delivered,Ayoub Sabri,+212 651 63 32 69,Rabat,1× Amber Oud Gold — Al Haramain,49,0,0
+WAHJ-4845,2026-09-05,LOCAL,delivered,Reda Fassi,0625 18 95 32,Mohammedia,1× Invictus — Paco Rabanne,49,0,0
+WAHJ-4851,2026-09-05,ONLINE,returned,Nabil Lahlou,0698 13 47 92,Casablanca-Settat,1× Gift Box Signature; 1× Pack Couple — Lui & Elle,608,35,1
+WAHJ-4847,2026-09-05,LOCAL,delivered,Nisrine Benali,0667 51 69 15,Salé,1× Yara — Lattafa,49,0,0
+WAHJ-4849,2026-09-05,LOCAL,delivered,Othmane Berrada,+212 627 15 83 83,Casablanca,1× Erba Pura — Xerjoff; 1× Asad — Lattafa; 1× Bleu de Chanel — Chanel,147,0,0
+WAHJ-4850,2026-09-05,LOCAL,delivered,Nabil El Idrissi,+212 647 91 81 53,Salé,1× Khamrah — Lattafa,49,0,0
+WAHJ-4853,2026-09-05,ONLINE,delivered,Nabil Chraibi,+212 695 45 23 27,Fès-Meknès,1× Pack Parfait — Elle,269,35,0
+WAHJ-4846,2026-09-05,LOCAL,delivered,Anas Benali,0678 69 15 18,Casablanca,1× Invictus — Paco Rabanne,49,0,0
+WAHJ-4852,2026-09-05,ONLINE,returned,Hajar Sabri,0610 65 45 72,Rabat-Salé-Kénitra,1× Pack Parfait — Oud Royale,299,35,1
+WAHJ-4860,2026-09-06,ONLINE,cancelled,Yasmine Fassi,0657 12 84 59,Tanger-Tétouan-Al Hoceïma,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4855,2026-09-06,LOCAL,delivered,Lina El Amrani,0692 33 13 15,Casablanca,2× Good Girl — Carolina Herrera,89,0,0
+WAHJ-4856,2026-09-06,LOCAL,delivered,Simo El Idrissi,+212 684 47 71 93,Casablanca,1× Amber Oud Gold — Al Haramain,49,0,0
+WAHJ-4854,2026-09-06,LOCAL,delivered,Nabil Benali,0636 28 38 67,Casablanca,1× Eros — Versace,49,0,0
+WAHJ-4859,2026-09-06,ONLINE,delivered,Douae Zeroual,0693 54 94 40,Casablanca-Settat,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4858,2026-09-06,ONLINE,delivered,Simo Kettani,+212 638 31 41 57,Marrakech-Safi,1× Pack Couple — Lui & Elle; 1× Pack Parfait — Méditerranée,528,35,0
+WAHJ-4857,2026-09-06,ONLINE,delivered,Lina El Amrani,0661 72 23 91,Casablanca-Settat,1× Pack Parfait — Oud Royale,299,35,0
+WAHJ-4862,2026-09-07,LOCAL,delivered,Mehdi Berrada,0620 31 52 37,Casablanca,1× Erba Pura — Xerjoff,49,0,0
+WAHJ-4861,2026-09-07,LOCAL,delivered,Ayoub Tahiri,0656 84 39 85,Casablanca,2× Bleu de Chanel — Chanel,89,0,0
+WAHJ-4863,2026-09-07,ONLINE,delivered,Lina Berrada,0644 33 31 19,Tanger-Tétouan-Al Hoceïma,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4864,2026-09-07,ONLINE,delivered,Nisrine Benali,0634 59 44 77,Drâa-Tafilalet,1× Pack EID,339,35,0
+WAHJ-4866,2026-09-08,LOCAL,delivered,Bilal Naciri,0643 65 99 28,Casablanca,1× Oud Wood — Tom Ford; 1× Hawas — Rasasi,108,0,0
+WAHJ-4869,2026-09-08,ONLINE,delivered,Sara Berrada,0699 43 19 92,Tanger-Tétouan-Al Hoceïma,1× Pack EID,339,35,0
+WAHJ-4868,2026-09-08,ONLINE,delivered,Mehdi Lahlou,0663 18 60 76,Casablanca-Settat,1× Pack EID,339,35,0
+WAHJ-4865,2026-09-08,LOCAL,delivered,Ghita Ouali,+212 688 22 35 80,Casablanca,2× Khamrah — Lattafa,89,0,0
+WAHJ-4867,2026-09-08,LOCAL,delivered,Marouane Chraibi,+212 654 39 91 25,Casablanca,2× Amber Oud Gold — Al Haramain,89,0,0
+WAHJ-4872,2026-09-09,LOCAL,delivered,Karim Zeroual,+212 674 69 93 14,Casablanca,2× Baccarat Rouge 540 — MFK,109,0,0
+WAHJ-4871,2026-09-09,LOCAL,delivered,Sara Kettani,+212 620 59 57 76,Casablanca,1× Bleu de Chanel — Chanel,49,0,0
+WAHJ-4873,2026-09-09,ONLINE,delivered,Lina Bennani,0640 21 23 75,Marrakech-Safi,1× Gift Box Signature,329,35,0
+WAHJ-4875,2026-09-09,ONLINE,delivered,Nabil Chraibi,0639 58 66 54,Casablanca-Settat,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4870,2026-09-09,LOCAL,delivered,Reda Fassi,0689 26 17 94,Mohammedia,2× Sauvage — Dior,89,0,0
+WAHJ-4874,2026-09-09,ONLINE,delivered,Youssef Fassi,+212 691 32 37 34,Marrakech-Safi,1× Pack Parfait — Oud Royale,299,35,0
+WAHJ-4876,2026-09-10,LOCAL,delivered,Salma Zeroual,0620 26 70 70,Casablanca,1× Yara — Lattafa,49,0,0
+WAHJ-4877,2026-09-10,LOCAL,delivered,Nada Sabri,0646 59 44 84,Casablanca,2× Bleu de Chanel — Chanel,89,0,0
+WAHJ-4878,2026-09-10,ONLINE,delivered,Bilal El Amrani,+212 619 40 39 45,Drâa-Tafilalet,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4880,2026-09-10,ONLINE,delivered,Adam Berrada,0687 18 32 95,Casablanca-Settat,1× Pack EID,339,35,0
+WAHJ-4879,2026-09-10,ONLINE,delivered,Mehdi El Idrissi,+212 699 59 91 20,Casablanca-Settat,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4882,2026-09-11,LOCAL,returned,Mehdi Benali,+212 684 72 56 38,Casablanca,1× Oud Wood — Tom Ford,59,0,1
+WAHJ-4884,2026-09-11,LOCAL,delivered,Douae Dahbi,0622 10 45 50,Casablanca,1× Good Girl — Carolina Herrera,49,0,0
+WAHJ-4886,2026-09-11,ONLINE,delivered,Nabil Fassi,0659 24 47 63,Oriental,1× Pack EID,339,35,0
+WAHJ-4881,2026-09-11,LOCAL,delivered,Zineb Sabri,+212 681 96 42 61,Salé,2× Hawas — Rasasi; 2× Shalimar — Guerlain,178,0,0
+WAHJ-4883,2026-09-11,LOCAL,delivered,Mehdi Tahiri,+212 670 35 89 81,Bouskoura,2× Hawas — Rasasi,89,0,0
+WAHJ-4885,2026-09-11,ONLINE,delivered,Nisrine Ouali,0669 93 90 66,Tanger-Tétouan-Al Hoceïma,1× Pack Couple — Lui & Elle; 1× Pack Découverte — Femme,468,35,0
+WAHJ-4894,2026-09-12,ONLINE,delivered,Yasmine Bennani,0618 61 41 47,Fès-Meknès,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4891,2026-09-12,LOCAL,delivered,Simo Bennani,+212 667 98 11 13,Casablanca,2× Angel's Share — Kilian,109,0,0
+WAHJ-4888,2026-09-12,LOCAL,delivered,Reda El Amrani,0671 15 72 30,Bouskoura,1× La Vie Est Belle — Lancôme,49,0,0
+WAHJ-4887,2026-09-12,LOCAL,delivered,Malak Lahlou,+212 694 92 31 77,Bouskoura,2× Sì — Giorgio Armani; 2× La Vie Est Belle — Lancôme,178,0,0
+WAHJ-4890,2026-09-12,LOCAL,delivered,Hamza Berrada,0655 34 74 46,Casablanca,1× Bleu de Chanel — Chanel,49,0,0
+WAHJ-4892,2026-09-12,ONLINE,delivered,Zineb Zeroual,0633 35 20 67,Fès-Meknès,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4889,2026-09-12,LOCAL,delivered,Mehdi Naciri,+212 627 98 58 11,Casablanca,1× Sauvage — Dior,49,0,0
+WAHJ-4893,2026-09-12,ONLINE,delivered,Ayoub Ouali,+212 625 87 69 82,Marrakech-Safi,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4897,2026-09-13,LOCAL,confirmed,Mehdi Lahlou,+212 661 44 25 10,Casablanca,2× 1 Million — Paco Rabanne,89,0,0
+WAHJ-4899,2026-09-13,LOCAL,delivered,Ghita Benali,+212 641 57 79 23,Casablanca,2× 1 Million — Paco Rabanne; 2× Eros — Versace,178,0,0
+WAHJ-4896,2026-09-13,LOCAL,shipped,Ghita Ouali,+212 654 63 33 42,Casablanca,1× Invictus — Paco Rabanne,49,0,0
+WAHJ-4895,2026-09-13,LOCAL,delivered,Karim Kettani,+212 661 58 48 98,Casablanca,2× Sauvage — Dior,89,0,0
+WAHJ-4900,2026-09-13,ONLINE,delivered,Karim Zeroual,+212 640 27 58 64,Casablanca-Settat,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4902,2026-09-13,ONLINE,delivered,Simo Fassi,+212 647 54 11 88,Rabat-Salé-Kénitra,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4901,2026-09-13,ONLINE,delivered,Yasmine Chraibi,0621 95 94 13,Casablanca-Settat,1× Pack Parfait — Elle,269,35,0
+WAHJ-4898,2026-09-13,LOCAL,shipped,Hamza Bennani,+212 661 40 74 78,Casablanca,1× Bleu de Chanel — Chanel,49,0,0
+WAHJ-4906,2026-09-14,ONLINE,returned,Hajar Fassi,0624 84 28 82,Casablanca-Settat,1× Pack Couple — Lui & Elle,279,35,1
+WAHJ-4907,2026-09-14,ONLINE,pending,Ghita Sabri,0623 22 69 81,Casablanca-Settat,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4903,2026-09-14,LOCAL,delivered,Lina Fassi,0658 52 92 54,Bouskoura,2× Angel's Share — Kilian,109,0,0
+WAHJ-4904,2026-09-14,LOCAL,delivered,Hajar Bennani,+212 688 54 61 63,Casablanca,2× La Vie Est Belle — Lancôme,89,0,0
+WAHJ-4905,2026-09-14,LOCAL,delivered,Lina Kettani,+212 696 52 91 87,Casablanca,2× Khamrah — Lattafa,89,0,0
+WAHJ-4909,2026-09-15,LOCAL,delivered,Karim Kettani,+212 661 58 48 98,Casablanca,1× Erba Pura — Xerjoff,49,0,0
+WAHJ-4910,2026-09-15,LOCAL,delivered,Zakaria Naciri,+212 657 82 43 54,Salé,2× Sauvage — Dior,89,0,0
+WAHJ-4908,2026-09-15,LOCAL,delivered,Mehdi Lahlou,+212 661 44 25 10,Casablanca,1× La Vie Est Belle — Lancôme,49,0,0
+WAHJ-4912,2026-09-15,ONLINE,delivered,Salma Naciri,+212 644 91 48 48,Marrakech-Safi,1× Pack EID,339,35,0
+WAHJ-4911,2026-09-15,ONLINE,delivered,Nada Kettani,0663 29 41 72,Rabat-Salé-Kénitra,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4914,2026-09-16,LOCAL,confirmed,Bilal Naciri,+212 686 22 81 81,Bouskoura,2× Baccarat Rouge 540 — MFK,109,0,0
+WAHJ-4913,2026-09-16,LOCAL,confirmed,Nisrine Zeroual,+212 642 54 63 38,Casablanca,1× Invictus — Paco Rabanne,49,0,0
+WAHJ-4916,2026-09-16,ONLINE,cancelled,Rim Dahbi,+212 673 13 46 43,Casablanca-Settat,1× Pack Parfait — Oud Royale,299,35,0
+WAHJ-4915,2026-09-16,LOCAL,delivered,Hamza Chraibi,+212 684 44 89 92,Casablanca,1× Sauvage — Dior,49,0,0
+WAHJ-4920,2026-09-17,ONLINE,delivered,Mehdi El Idrissi,+212 652 48 55 94,Oriental,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4919,2026-09-17,ONLINE,delivered,Douae Fassi,+212 653 38 76 89,Souss-Massa,1× Pack Découverte — Homme,189,35,0
+WAHJ-4918,2026-09-17,LOCAL,shipped,Ayoub Tahiri,0626 29 16 13,Bouskoura,1× Shalimar — Guerlain,49,0,0
+WAHJ-4917,2026-09-17,LOCAL,delivered,Nabil Benali,0636 28 38 67,Casablanca,1× Midnight Oud — Ard Al Zaafaran,49,0,0
+WAHJ-4925,2026-09-18,ONLINE,delivered,Lina Berrada,0648 73 22 99,Marrakech-Safi,1× Pack Découverte — Homme,189,35,0
+WAHJ-4921,2026-09-18,LOCAL,delivered,Malak Zeroual,0634 97 86 11,Bouskoura,1× Good Girl — Carolina Herrera,49,0,0
+WAHJ-4923,2026-09-18,LOCAL,delivered,Nisrine Zeroual,+212 642 54 63 38,Casablanca,1× 9PM — Afnan; 1× Luna Rossa — Prada,98,0,0
+WAHJ-4922,2026-09-18,LOCAL,delivered,Anas Chraibi,0655 45 20 79,Casablanca,1× 1 Million — Paco Rabanne,49,0,0
+WAHJ-4924,2026-09-18,ONLINE,delivered,Douae Kettani,+212 614 19 63 80,Casablanca-Settat,1× Pack Couple — Lui & Elle; 1× Pack EID,618,35,0
+WAHJ-4928,2026-09-19,LOCAL,delivered,Nada Chraibi,+212 628 71 26 93,Casablanca,2× Asad — Lattafa; 2× La Vie Est Belle — Lancôme,178,0,0
+WAHJ-4926,2026-09-19,LOCAL,delivered,Ghita Chraibi,+212 679 55 10 88,Casablanca,1× Erba Pura — Xerjoff,49,0,0
+WAHJ-4929,2026-09-19,LOCAL,delivered,Anas Ouali,0656 64 95 72,Casablanca,2× Hawas — Rasasi; 2× Yara — Lattafa,178,0,0
+WAHJ-4932,2026-09-19,ONLINE,shipped,Aya Benali,+212 635 75 21 54,Rabat-Salé-Kénitra,1× Pack EID,339,35,0
+WAHJ-4931,2026-09-19,ONLINE,delivered,Salma El Idrissi,+212 625 41 17 80,Tanger-Tétouan-Al Hoceïma,1× Pack Parfait — Elle,269,35,0
+WAHJ-4930,2026-09-19,ONLINE,returned,Ayoub Lahlou,0612 22 19 53,Souss-Massa,1× Pack Parfait — Elle,269,35,1
+WAHJ-4927,2026-09-19,LOCAL,delivered,Simo El Idrissi,+212 684 47 71 93,Casablanca,1× Bleu de Chanel — Chanel; 1× Eros — Versace; 1× Sauvage — Dior,147,0,0
+WAHJ-4935,2026-09-20,LOCAL,delivered,Anas Kettani,+212 679 51 21 98,Bouskoura,1× Aventus — Creed,59,0,0
+WAHJ-4937,2026-09-20,ONLINE,delivered,Mehdi Moutawakil,0694 68 22 73,Rabat-Salé-Kénitra,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4936,2026-09-20,LOCAL,delivered,Marouane Moutawakil,0672 69 71 24,Casablanca,1× Luna Rossa — Prada; 1× Invictus — Paco Rabanne,98,0,0
+WAHJ-4933,2026-09-20,LOCAL,delivered,Adam Bennani,+212 637 80 66 77,Casablanca,2× La Vie Est Belle — Lancôme,89,0,0
+WAHJ-4939,2026-09-20,ONLINE,delivered,Othmane Zeroual,0630 54 76 10,Casablanca-Settat,1× Pack Découverte — Femme,189,35,0
+WAHJ-4938,2026-09-20,ONLINE,delivered,Hajar Bennani,0680 20 65 53,Tanger-Tétouan-Al Hoceïma,1× Pack Découverte — Homme,189,35,0
+WAHJ-4934,2026-09-20,LOCAL,delivered,Sara El Amrani,0635 94 17 10,Casablanca,2× La Vie Est Belle — Lancôme; 2× Sì — Giorgio Armani,178,0,0
+WAHJ-4942,2026-09-21,LOCAL,delivered,Reda Fassi,0689 26 17 94,Mohammedia,2× Yara — Lattafa,89,0,0
+WAHJ-4941,2026-09-21,LOCAL,delivered,Lina Kettani,0665 12 47 53,Rabat,1× Hawas — Rasasi; 1× Yara — Lattafa,98,0,0
+WAHJ-4944,2026-09-21,ONLINE,delivered,Marouane Bennani,0651 87 19 42,Rabat-Salé-Kénitra,1× Pack Parfait — Oud Royale,299,35,0
+WAHJ-4943,2026-09-21,ONLINE,delivered,Zineb Berrada,+212 616 59 48 50,Casablanca-Settat,1× Pack Parfait — Elle,269,35,0
+WAHJ-4940,2026-09-21,LOCAL,delivered,Lina Chraibi,+212 683 12 19 75,Casablanca,2× Hawas — Rasasi; 2× Ombre Nomade — Louis Vuitton,198,0,0
+WAHJ-4948,2026-09-22,ONLINE,delivered,Mehdi Lahlou,0691 66 68 95,Rabat-Salé-Kénitra,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4947,2026-09-22,ONLINE,delivered,Karim Benali,+212 645 82 17 35,Tanger-Tétouan-Al Hoceïma,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4945,2026-09-22,LOCAL,delivered,Zakaria Moutawakil,0688 12 37 19,Casablanca,2× Oud Wood — Tom Ford,109,0,0
+WAHJ-4946,2026-09-22,LOCAL,delivered,Ghita Benali,+212 641 57 79 23,Casablanca,1× Hawas — Rasasi,49,0,0
+WAHJ-4949,2026-09-23,LOCAL,cancelled,Ghita El Amrani,+212 623 57 75 31,Salé,1× Bleu de Chanel — Chanel,49,0,0
+WAHJ-4951,2026-09-23,LOCAL,confirmed,Othmane Tahiri,+212 638 95 22 60,Casablanca,1× Yara — Lattafa,49,0,0
+WAHJ-4953,2026-09-23,ONLINE,confirmed,Zineb Lahlou,+212 649 54 35 64,Souss-Massa,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4950,2026-09-23,LOCAL,pending,Anas Chraibi,0655 45 20 79,Casablanca,1× Libre — YSL; 1× Sauvage — Dior,98,0,0
+WAHJ-4952,2026-09-23,ONLINE,confirmed,Sara Sabri,0697 43 33 83,Casablanca-Settat,1× Pack Couple — Lui & Elle,279,35,0
+WAHJ-4957,2026-09-24,ONLINE,pending,Nada Ouali,+212 614 47 11 61,Laâyoune-Sakia El Hamra,1× Pack Découverte — Femme,189,35,0
+WAHJ-4954,2026-09-24,LOCAL,pending,Othmane Benali,0623 74 51 69,Casablanca,1× Asad — Lattafa,49,0,0
+WAHJ-4956,2026-09-24,ONLINE,confirmed,Ghita El Idrissi,+212 635 45 71 41,Marrakech-Safi,1× Pack Parfait — Elle,269,35,0
+WAHJ-4955,2026-09-24,LOCAL,pending,Nabil Zeroual,0698 37 56 16,Casablanca,1× Baccarat Rouge 540 — MFK; 1× Asad — Lattafa,108,0,0
+WAHJ-4962,2026-09-25,ONLINE,pending,Marouane Bennani,+212 693 70 14 53,Casablanca-Settat,1× Pack EID,339,35,0
+WAHJ-4958,2026-09-25,LOCAL,pending,Bilal El Amrani,+212 649 76 99 56,Casablanca,1× Ombre Nomade — Louis Vuitton; 1× Eros — Versace,108,0,0
+WAHJ-4963,2026-09-25,ONLINE,pending,Nisrine Bennani,0629 12 74 54,Casablanca-Settat,1× Pack Parfait — Elle,269,35,0
+WAHJ-4959,2026-09-25,LOCAL,confirmed,Karim Zeroual,+212 633 84 15 14,Casablanca,2× Invictus — Paco Rabanne; 2× Lost Cherry — Tom Ford,198,0,0
+WAHJ-4961,2026-09-25,LOCAL,delivered,Ayoub Tahiri,0656 84 39 85,Casablanca,1× Good Girl — Carolina Herrera,49,0,0
+WAHJ-4960,2026-09-25,LOCAL,confirmed,Othmane Zeroual,+212 640 49 21 14,Casablanca,1× Khamrah — Lattafa,49,0,0
+WAHJ-4969,2026-09-26,ONLINE,confirmed,Nada Fassi,+212 645 72 82 62,Rabat-Salé-Kénitra,1× Pack Parfait — Méditerranée,249,35,0
+WAHJ-4964,2026-09-26,LOCAL,confirmed,Marouane Zeroual,0686 59 39 18,Rabat,2× Baccarat Rouge 540 — MFK,109,0,0
+WAHJ-4967,2026-09-26,LOCAL,confirmed,Malak Zeroual,0634 97 86 11,Bouskoura,2× Shalimar — Guerlain,89,0,0
+WAHJ-4968,2026-09-26,ONLINE,delivered,Nabil Kettani,0646 43 86 80,Fès-Meknès,1× Gift Box Signature,329,35,0
+WAHJ-4965,2026-09-26,LOCAL,confirmed,Sara Moutawakil,+212 689 93 68 21,Casablanca,1× Bleu de Chanel — Chanel,49,0,0
+WAHJ-4966,2026-09-26,LOCAL,confirmed,Kenza Chraibi,0685 27 33 49,Bouskoura,1× Bleu de Chanel — Chanel; 1× Invictus — Paco Rabanne,98,0,0
